@@ -8,10 +8,10 @@ module.exports = {
   siteName: 'DarZouras.com',
   transformers: {
     remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
-      plugins: [
-
-      ]
+      plugins: []
     }
   },
 
@@ -22,9 +22,7 @@ module.exports = {
         path: 'posts/**/*.md',
         typeName: 'Post',
         remark: {
-          plugins: [
-
-          ]
+          plugins: []
         }
       }
     },
