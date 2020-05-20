@@ -2,7 +2,8 @@ backend:
   name: github
   repo: darzouras/darzouras-gridsome-site
 
-media_folder: "static/img"
+media_folder: "static/uploads"
+public_folder: "/uploads"
 site_url: https://www.darzouras.com
 
 collections:
