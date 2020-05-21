@@ -1,18 +1,24 @@
 <template>
     <nav>
         <ul>
-            <li>
-                <g-link to="/">Home</g-link>
+
+            <li v-for="link in links" :key="link">
+                <g-link :to="link.link">{{ link.title }}</g-link>
             </li>
-            <li>
-                <g-link to="/about/">About</g-link>
-            </li>
+
         </ul>
     </nav>
 </template>
 
 <script>
+import links from '@/data/nav.yaml'
+
 export default {
+    computed: {
+        links () {
+            return links
+        }
+    },
     name: 'Navigation',
 }
 </script>
