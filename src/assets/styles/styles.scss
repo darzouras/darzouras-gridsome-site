@@ -21,10 +21,11 @@ body {
         text-decoration: underline;
         text-decoration-color: $midtone;
         text-decoration-thickness: 3px;
-    }
-    a:hover {
-        background: $midtone;
-        color: $lightest;
+
+        &:hover {
+            background: $midtone;
+            color: $lightest;
+        }
     }
 
     /* titles */
