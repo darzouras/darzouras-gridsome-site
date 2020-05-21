@@ -1,5 +1,6 @@
 <template>
   <div class="body-wrapper">
+    <Header />
     <Navigation />
 
     <main>
@@ -19,11 +20,13 @@ query {
 </static-query>
 
 <script>
+import Header from '~/components/header.vue'
 import Navigation from '~/components/navigation.vue'
 import Footer from '~/components/footer.vue'
 
 export default {
   components: {
+    Header,
     Navigation,
     Footer
   }

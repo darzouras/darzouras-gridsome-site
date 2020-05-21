@@ -21,7 +21,7 @@ export default {
             width: 90%;
             letter-spacing: .1em;
             
-            @include font-weight(100);
+            @include font-weight(150);
         }
     }
 </style>
