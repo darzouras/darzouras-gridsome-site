@@ -3,6 +3,8 @@
     <Navigation />
 
     <slot />
+
+    <Footer />
   </div>
 </template>
 
@@ -16,10 +18,12 @@ query {
 
 <script>
 import Navigation from '~/components/navigation.vue'
+import Footer from '~/components/footer.vue'
 
 export default {
   components: {
-    Navigation
+    Navigation,
+    Footer
   }
 }
 </script>
