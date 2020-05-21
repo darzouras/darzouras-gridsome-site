@@ -1,5 +1,3 @@
-$font-stack: "Public Sans", Arial, Helvetica, sans-serif;
-
 $lightest: #fef6e9;
 $light: #ffc3c1;
 $midtone: #83cab2;
@@ -29,4 +27,9 @@ $screen-xl-min: 1200px;
    @media (min-width: #{$screen-xl-min}) {
        @content;
    }
+}
+
+@mixin font-weight($property) {
+    font-weight: $property;
+    font-variation-settings: 'wght' $property;
 }
