@@ -2,7 +2,9 @@
   <div class="body-wrapper">
     <Navigation />
 
-    <slot />
+    <main>
+      <slot />
+    </main>
 
     <Footer />
   </div>
@@ -29,6 +31,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @font-face {
+      src: url('../assets/fonts/PublicSans-Roman-VF.woff2');
+      font-family: "Public Sans";
+      font-style: normal;
+  }
+  @font-face {
+      src: url('../assets/fonts/PublicSans-Italic-VF.woff2');
+      font-family: "Public Sans Italic";
+      font-style: italic;
+  }
+
   .body-wrapper {
     width: 90%;
     max-width: 500px;
@@ -38,5 +51,10 @@ export default {
     border-radius: 50px 50px 10px 10px;
     display: block;
     overflow: hidden;
+
+    main {
+      width: 90%;
+      padding: 1em 5% 2em;
+    }
   }
 </style>
