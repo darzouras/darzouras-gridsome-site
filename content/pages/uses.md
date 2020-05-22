@@ -1,6 +1,6 @@
 ---
 title: Uses
-permalink: /uses/
+permalink: uses
 layout: layouts/page.njk
 header: /static/img/uses_header1.jpg
 summary: A list of some of my current favs for work and play.

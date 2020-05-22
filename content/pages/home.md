@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: /
+permalink: 
 layout: layouts/home.njk
 summary: Darlene Zouras is front end developer and artist. Currently working as
   UX Developer for 160/90.

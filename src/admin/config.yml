@@ -55,6 +55,10 @@ collections:
       - label: "Summary"
         name: "summary"
         widget: "text"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag"}
       - label: "Header image"
         name: "header"
         widget: "image"

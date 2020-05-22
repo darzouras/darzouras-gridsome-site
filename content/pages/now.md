@@ -1,6 +1,6 @@
 ---
 title: Now
-permalink: /now/
+permalink: now
 layout: layouts/page.njk
 summary: What have I been up to?
 header: /static/img/sailormoonattitude1.PNG

@@ -1,6 +1,6 @@
 ---
 title: Blog
-permalink: /blog/
+permalink: blog
 layout: layouts/blog.njk
 summary: This blog is used to update personal and professional projects, record
   ideas, and discuss plans.

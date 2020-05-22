@@ -18,6 +18,13 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: 'DarZouras.com',
+
+  templates: {
+    Post: '/blog/:title',
+    Tag: '/tag/:id',
+    Main: '/:permalink'
+  },
+
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -31,13 +38,31 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'posts/**/*.md',
+        path: 'content/posts/*.md',
         typeName: 'Post',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        },
         remark: {
           plugins: []
         }
       }
     },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/pages/*.md',
+        typeName: 'Main',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
     {
       use: 'gridsome-plugin-netlify-cms',
       options: {

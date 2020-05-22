@@ -1,6 +1,6 @@
 ---
 title: Contact
-permalink: /contact/
+permalink: contact
 layout: layouts/page.njk
 header: /static/img/sailormoonattitude1.PNG
 ---
