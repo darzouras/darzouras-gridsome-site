@@ -1,7 +1,7 @@
 ---
 title: Now
 permalink: now
-layout: layouts/page.njk
+layout: layouts/Default.vue
 summary: What have I been up to?
 header: /static/img/sailormoonattitude1.PNG
 ---

@@ -1,7 +1,7 @@
 ---
 title: Blog
 permalink: blog
-layout: layouts/blog.njk
+layout: pages/Blog.vue
 summary: This blog is used to update personal and professional projects, record
   ideas, and discuss plans.
 header: /static/img/sailormoonattitude1.PNG

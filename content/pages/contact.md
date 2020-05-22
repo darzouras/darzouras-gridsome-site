@@ -1,7 +1,7 @@
 ---
 title: Contact
 permalink: contact
-layout: layouts/page.njk
+layout: layouts/Default.vue
 header: /static/img/sailormoonattitude1.PNG
 ---
 Want to reach out? Here's where you can find me:
