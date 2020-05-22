@@ -1,6 +1,6 @@
 <template>
     <article>
-        <h2 v-html="post.title"></h2>
+        <g-link :to="post.path"><h2 v-html="post.title"></h2></g-link>
         <time datetime="post.date">
             {{ post.date | formatDate }}
         </time>

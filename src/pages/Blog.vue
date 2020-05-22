@@ -22,6 +22,7 @@
                     title
                     date
                     summary
+                    path
                 }
             }
         }
