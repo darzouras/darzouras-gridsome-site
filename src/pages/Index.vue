@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    this is my content??
+    <h1>DarZouras.com</h1>
   </Layout>
 </template>
 
