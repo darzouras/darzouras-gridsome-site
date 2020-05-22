@@ -31,3 +31,19 @@
         margin-top: 3rem;
     }
 </style>
+
+<script>
+export default {
+    metaInfo () {
+        return {
+            title: this.$page.post.title,
+            meta: [
+                {
+                    name: 'description',
+                    content: this.$page.post.summary
+                }
+            ]
+        }
+    }
+}
+</script>
