@@ -2,11 +2,11 @@
 title: DarZouras.com Updated
 date: 2019-08-30T16:24:11.808Z
 summary: Nearly complete with the rebuild of my personal site. Here's what's different.
-header: /static/uploads/old-site.jpg
+header: /uploads/old-site.jpg
 ---
 It's day one of a four day weekend and I'm neck deep in the rebuild of my personal website. Just in case you haven't seen it before the rebuild, this is what you were missing:
 
-![DarZouras.com before the rebuild](/static/uploads/old-site.jpg "DarZouras.com before the rebuild")
+![DarZouras.com before the rebuild](/uploads/old-site.jpg "DarZouras.com before the rebuild")
 
 As I'm writing this blog post there are a few things that I've already added based on my time at [An Event Apart](https://aneventapart.com) Chicago:
 
