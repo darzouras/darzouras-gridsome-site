@@ -2,7 +2,7 @@
 title: Uses
 permalink: uses
 layout: layouts/Default.vue
-header: /static/img/uses_header1.jpg
+header: /uploads/uses_header1.jpg
 summary: A list of some of my current favs for work and play.
 ---
 * Overcast for podcasts
