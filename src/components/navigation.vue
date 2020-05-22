@@ -2,7 +2,7 @@
     <nav>
         <ul>
 
-            <li v-for="link in links" :key="link">
+            <li v-for="(link, i) in links" :key="`${i}-${link.id}`">
                 <g-link :to="link.link">{{ link.title }}</g-link>
             </li>
 
