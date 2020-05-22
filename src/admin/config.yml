@@ -9,7 +9,7 @@ site_url: https://www.darzouras.com
 collections:
   - name: "pages"
     label: "Page"
-    folder: "pages"
+    folder: "content/pages"
     create: true
     slug: "{{slug}}"
     fields:
@@ -42,7 +42,7 @@ collections:
         widget: "markdown"
   - name: "blog"
     label: "Blog"
-    folder: "posts"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields:
