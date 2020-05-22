@@ -7,6 +7,10 @@
         </time>
 
         <div class="post-body" v-html="$page.post.content"></div>
+
+        <div class="post-back">
+            <g-link to="/blog">Back to Blog</g-link>
+        </div>
     </Layout>
 </template>
 
@@ -21,3 +25,9 @@
         }
     }
 </page-query>
+
+<style type="scss" scoped>
+    .post-back {
+        margin-top: 3rem;
+    }
+</style>
