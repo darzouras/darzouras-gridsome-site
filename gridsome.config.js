@@ -17,9 +17,14 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
+  data: {
+    header: '/uploads/sailormoonattitude1.PNG'
+  },
+  
   siteName: 'DarZouras.com',
 
   templates: {
+    Blog: '/blog',
     Post: '/blog/:title',
     Tag: '/tag/:id',
     Main: '/:permalink'
@@ -57,6 +62,17 @@ module.exports = {
       options: {
         path: 'content/pages/*.md',
         typeName: 'Main',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/blog.md',
+        typeName: 'Blog',
         remark: {
           plugins: []
         }

@@ -1,7 +1,8 @@
 <template>
     <Layout>
         <h1>Blog</h1>
-        <p>idk the description goes here</p>
+        
+        <div v-html="$page.blog.content"></div>
 
         <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
 
@@ -10,7 +11,7 @@
 </template>
 
 <page-query>
-    query ($page: Int) {
+    query ($page: Int, $id: ID!) {
         posts: allPost(perPage: 5, page: $page) @paginate {
             pageInfo {
                 totalPages
@@ -26,6 +27,11 @@
                 }
             }
         }
+
+        blog (id:$id) {
+            title
+            content
+        }
     }
 </page-query>
 
@@ -39,7 +45,13 @@ export default {
         Pager
     },
     metaInfo: {
-        title: 'Blog'
+        title: 'Blog',
+        meta: [
+            {
+                name: 'description',
+                content: this.$page.blog.summary
+            }
+        ]
     }
 }
 </script>

@@ -16,5 +16,5 @@ export default function (Vue, { router, head, isClient }) {
     if (value) {
       return moment(String(value)).format('MMMM DD, YYYY || h:mm a')
     }
-  })
+  });
 }
