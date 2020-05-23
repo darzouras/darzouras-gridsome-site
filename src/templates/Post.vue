@@ -2,9 +2,7 @@
     <Layout>
         <h1>{{ $page.post.title }}</h1>
 
-        <time datetime="page.post.date">
-            {{ $page.post.date | formatDate }}
-        </time>
+        <Timestamp v-bind:time="$page.post.date" />
 
         <div class="post-body" v-html="$page.post.content"></div>
 
@@ -33,7 +31,12 @@
 </style>
 
 <script>
+import Timestamp from '~/components/timestamp.vue'
+
 export default {
+    components: {
+        Timestamp
+    },
     metaInfo () {
         return {
             title: this.$page.post.title,

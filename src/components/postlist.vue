@@ -1,16 +1,19 @@
 <template>
     <article>
         <h2><g-link :to="post.path">{{ post.title }}</g-link></h2>
-        <time datetime="post.date">
-            {{ post.date | formatDate }}
-        </time>
+        <Timestamp v-bind:time="post.date" />
 
         <p v-html="post.summary"></p>
     </article>
 </template>
 
 <script>
+import Timestamp from '~/components/timestamp.vue'
+
 export default {
+    components: {
+        Timestamp
+    }, 
     name: 'PostList',
     props: ['post']
 }
