@@ -13,23 +13,6 @@
     }
 </static-query>
 
-<script>
-export default {
-    metaInfo() {
-        return {
-            title: this.$static.metadata.siteName,
-            meta: [
-                {
-                    key: 'description',
-                    name: 'description',
-                    content: this.$static.metadata.siteDescription
-                }
-            ]
-        }
-    }
-}
-</script>
-
 <style lang="scss" scoped>
     .fade-enter-active {
         transition-duration: 0.3s;

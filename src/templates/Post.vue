@@ -42,8 +42,39 @@ export default {
             title: this.$page.post.title,
             meta: [
                 {
+                    key: 'og:title',
+                    name: 'og:title',
+                    content: this.$page.post.title
+                },
+                {
+                    key: 'twitter:title',
+                    name: 'twitter:title',
+                    content: this.$page.post.title
+                },
+                {
+                    key: 'description',
                     name: 'description',
                     content: this.$page.post.summary
+                },
+                {
+                    key: 'og:description',
+                    name: 'og:description',
+                    content: this.$page.post.summary
+                },
+                {
+                    key: 'twitter:description',
+                    name: 'twitter:description',
+                    content: this.$page.post.summary
+                },
+                {
+                    key: 'og:image',
+                    name: 'og:image',
+                    content: 'https://darzouras.com' + this.$page.post.header
+                },
+                {
+                    key: 'twitter:image',
+                    name: 'twitter:image',
+                    content: 'https://darzouras.com' + this.$page.post.header
                 }
             ]
         }

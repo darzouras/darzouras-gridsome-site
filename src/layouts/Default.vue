@@ -11,14 +11,6 @@
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <script>
 import Header from '~/components/header.vue'
 import Navigation from '~/components/navigation.vue'

@@ -1,8 +1,7 @@
 ---
 title: Now brought to you by Gridsome
 date: 2020-05-23T16:33:44.199Z
-summary: The team at work is reevaluating our stack and we're leaning toward
-  something Vue based, spending Memorial Day weekend rebuilding this website in
+summary: Spending Memorial Day weekend rebuilding this website in
   Gridsome
 tags:
   - jamstack
