@@ -67,7 +67,7 @@ export default {
                 {
                     key: 'twitter:description',
                     name: 'twitter:description',
-                    content: this.$page.conctact.summary
+                    content: this.$page.contact.summary
                 },
                 {
                     key: 'og:image',
