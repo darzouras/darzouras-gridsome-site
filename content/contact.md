@@ -2,8 +2,8 @@
 title: Contact
 permalink: contact
 layout: layouts/Default.vue
-header: /uploads/sailormoonattitude1.PNG
 summary: Darlene would be happy to hear from you
+header: /uploads/img_0716.jpg
 ---
 Want to reach out? Here's where you can find me:
 
