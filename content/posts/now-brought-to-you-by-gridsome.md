@@ -23,4 +23,5 @@ About to look into their plugin library so I can shove some unnecessary function
 * Get blog tags working
 * Get all 100s in Lighthouse audit
 * Put Google Analytics back ([plugin?](https://gridsome.org/plugins/@gridsome/plugin-google-analytics))
+* Look into partial builds on Netlify so that it doesn't take forever to build???
 * Write up notes based on things that were not made obvious by Gridsome + NetlifyCMS docs
