@@ -3,7 +3,7 @@ backend:
   repo: darzouras/darzouras-gridsome-site
 
 media_folder: "static/uploads"
-public_folder: "uploads"
+public_folder: "/uploads"
 site_url: https://www.darzouras.com
 
 collections:
