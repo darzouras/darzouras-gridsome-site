@@ -38,17 +38,21 @@ export default {
             padding: 0;
             font-size: 1.2rem;
 
-            a {
-                color: $lightest;
-                margin: 0 .5em;
-                text-decoration: none;
-                text-transform: uppercase;
-                font-weight: 750;
-                font-variation-settings: 'wght' 750;
-                letter-spacing: .2em;
+            li {
+                margin: .1rem 0;
+                a {
+                    color: $lightest;
+                    margin: 0 .5rem;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 750;
+                    font-variation-settings: 'wght' 750;
+                    letter-spacing: .2em;
+                    padding: .1rem .3rem;
 
-                &:hover {
-                    background: $darkest;
+                    &:hover {
+                        background: $darkest;
+                    }
                 }
             }
         }
