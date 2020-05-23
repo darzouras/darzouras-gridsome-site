@@ -23,6 +23,10 @@ export default {
         padding: 1em;
         background-size: cover;
         background-position: center;
-        height:300px;
+        height:175px;
+
+        @include sm {
+            height: 300px;
+        }
     }
 </style>
