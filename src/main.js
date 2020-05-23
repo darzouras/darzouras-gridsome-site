@@ -34,4 +34,39 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       }
     }
   })
+
+  head.meta.push({
+    key: 'og:title',
+    name: 'og:title',
+    content: 'DarZouras.com'
+  })
+  head.meta.push({
+    key: 'twitter:title',
+    name: 'twitter:title',
+    content: 'DarZouras.com'
+  })
+  head.meta.push({
+    key: 'og:description',
+    name: 'og:description',
+    content: 'Darlene Zouras is a UX developer and artist'
+  })
+  head.meta.push({
+    key: 'twitter:description',
+    name: 'twitter:description',
+    content: 'Darlene Zouras is a UX developer and artist'
+  })
+
+  router.beforeEach((to, _from, next) => {
+    head.meta.push({
+      key: 'og:url',
+      name: 'og:url',
+      content: 'https://darzouras.com' + to.path
+    })
+    head.meta.push({
+      key: 'twitter:url',
+      name: 'twitter:url',
+      content: 'https://darzouras.com' + to.path
+    })
+    next()
+  })
 }
