@@ -46,7 +46,7 @@ export default {
     },
     metaInfo() {
         return {
-           title: 'Blog',
+            title: 'Blog',
             meta: [
                 {
                     name: 'description',
@@ -54,7 +54,6 @@ export default {
                 }
             ] 
         }
-        
     }
 }
 </script>
