@@ -8,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-    font-family: "Public Sans", Arial, Helvetica, sans-serif;
+    font-family: $fonts;
     background: $light;
     color: $darkest;
 
