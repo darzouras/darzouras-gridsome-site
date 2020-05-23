@@ -18,3 +18,13 @@ export default {
     props: ['post']
 }
 </script>
+
+<style lang="scss" scoped>
+    article {
+        margin-bottom: 3rem;
+
+        h2 {
+            margin-bottom: .5rem;
+        }
+    }
+</style>

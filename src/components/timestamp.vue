@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss" scoped>
     time {
-        font-size: .8rem;
+        font-size: 1.2rem;
         @include font-weight(550);
     }
 </style>
