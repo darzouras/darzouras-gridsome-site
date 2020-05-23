@@ -17,10 +17,6 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  data: {
-    header: '/uploads/sailormoonattitude1.PNG'
-  },
-
   siteName: 'DarZouras.com',
 
   templates: {

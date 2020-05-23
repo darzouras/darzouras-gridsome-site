@@ -14,7 +14,7 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.filter('formatDate', function(value) {
     if (value) {
-      return moment(String(value)).format('MMMM DD, YYYY || h:mm a')
+      return moment(String(value)).format('MMMM DD, YYYY')
     }
   });
 }

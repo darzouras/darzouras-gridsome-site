@@ -1,16 +1,32 @@
 <template>
-    <header></header>
+    <header :style="headerStyle"></header>
 </template>
+
+<static-query>
+query {
+    metadata {
+        header
+    }
+}
+</static-query>
 
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
+    computed: {
+        headerStyle() {
+            return {
+                "background-image": "url(" + this.$static.metadata.header + ")"
+            }
+        }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
     header {
         background-color: $darkest;
+        color: $lightest;
         position: relative;
         padding: 1em;
         background-size: cover;
