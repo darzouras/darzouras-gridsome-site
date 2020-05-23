@@ -18,7 +18,6 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: 'DarZouras.com',
-  icon: '/uploads/jigglypuff1.gif',
 
   templates: {
     Index: '/',
