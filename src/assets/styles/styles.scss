@@ -11,6 +11,7 @@ body {
     font-family: $fonts;
     background: $light;
     color: $darkest;
+    font-size: 115%;
 
     @include font-weight(250);
 
