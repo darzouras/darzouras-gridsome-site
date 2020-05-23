@@ -30,6 +30,7 @@
 <page-query>
     query ($id: ID!) {
         contact (id: $id) {
+            title
             content
             header
             summary
@@ -41,7 +42,7 @@
 export default {
     metaInfo() {
         return {
-            title: this.$page.contact.summary,
+            title: this.$page.contact.title,
             meta: [
                 {
                     name: 'description',
@@ -80,27 +81,28 @@ export default {
             letter-spacing: .1rem;
             @include font-weight(600);
 
-            input {
+            input, textarea {
                 font-family: $fonts;
+                font-size: 1rem;
                 display: block;
                 width: 100%;
-                background: transparent;
                 padding: .3rem;
+                @include font-weight(200);
+
+                &:focus {
+                    background: $light;
+                }
+            }
+
+            input {
+                background: transparent;
                 border-width: 0 0 3px 0;
                 border-color: $midtone;
-                font-size: 1rem;
-                @include font-weight(200);
             }
             textarea {
-                font-family: $fonts;
-                display: block;
-                width: 100%;
-                padding: .3rem;
-                background: $midtone;
+                background: transparent;
                 border: 3px solid $midtone;
                 border-radius: 10px;
-                font-size: 1rem;
-                @include font-weight (200);
             }
         }
 
@@ -117,6 +119,11 @@ export default {
             font-size: 1rem;
             @include font-weight(600);
             letter-spacing: .1rem;
+
+            &:focus {
+                background: $midtone;
+                color: $lightest;
+            }
         }
     }
 </style>
