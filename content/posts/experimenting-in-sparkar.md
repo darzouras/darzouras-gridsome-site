@@ -2,6 +2,9 @@
 title: Experimenting in SparkAR
 date: 2020-03-12T17:52:27.894Z
 summary: Spending downtime leveling up my AR game with Spark AR.
+tags:
+  - sparkar
+  - 160over90
 header: /uploads/sparkar-header1.png
 ---
 Earlier this year there was a little dip in work so I had the chance to play with Spark AR.
