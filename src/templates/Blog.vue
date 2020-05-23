@@ -44,14 +44,17 @@ export default {
         PostList,
         Pager
     },
-    metaInfo: {
-        title: 'Blog',
-        meta: [
-            {
-                name: 'description',
-                content: this.$page.blog.summary
-            }
-        ]
+    metaInfo() {
+        return {
+           title: 'Blog',
+            meta: [
+                {
+                    name: 'description',
+                    content: this.$page.blog.summary
+                }
+            ] 
+        }
+        
     }
 }
 </script>

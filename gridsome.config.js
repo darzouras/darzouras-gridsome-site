@@ -20,10 +20,12 @@ module.exports = {
   data: {
     header: '/uploads/sailormoonattitude1.PNG'
   },
-  
+
   siteName: 'DarZouras.com',
 
   templates: {
+    Index: '/',
+    Contact: '/contact',
     Blog: '/blog',
     Post: '/blog/:title',
     Tag: '/tag/:id',
@@ -73,6 +75,28 @@ module.exports = {
       options: {
         path: 'content/blog.md',
         typeName: 'Blog',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/contact.md',
+        typeName: 'Contact',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/home.md',
+        typeName: 'Index',
         remark: {
           plugins: []
         }
