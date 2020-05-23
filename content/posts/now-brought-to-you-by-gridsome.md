@@ -18,7 +18,7 @@ About to look into their plugin library so I can shove some unnecessary function
 
 ## TODO:
 
-* Get OG data in head working
+* Get OG data in head working ([try this?](https://timdeschryver.dev/blog/gridsome-social-cards))
 * Figure out how to add a Service-worker, make this a PWA ([this plugin?](https://gridsome.org/plugins/gridsome-plugin-pwa) or [this plugin?](https://gridsome.org/plugins/gridsome-plugin-service-worker))
 * Get blog tags working
 * Get all 100s in Lighthouse audit
