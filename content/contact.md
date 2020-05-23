@@ -2,7 +2,7 @@
 title: Contact
 permalink: contact
 layout: layouts/Default.vue
-header: /static/img/sailormoonattitude1.PNG
+header: /uploads/sailormoonattitude1.PNG
 ---
 Want to reach out? Here's where you can find me:
 
