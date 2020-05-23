@@ -33,8 +33,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    ul {
-        list-style: none;
-        padding: 0;
+    .page-body {
+        /deep/ ul {
+            list-style: none;
+            padding: 0;
+        }
     }
 </style>
