@@ -23,8 +23,29 @@ export default {
       title: 'Home',
       meta: [
         {
+          key: 'description',
           name: 'description',
           content: this.$page.index.summary
+        },
+        {
+          key: 'og:description',
+          name: 'description',
+          content: this.$page.index.summary
+        },
+        {
+          key: 'twitter:description',
+          name: 'twitter:description',
+          content: this.$page.index.summary
+        },
+        {
+          key: 'og:image',
+          name: 'og:image',
+          content: 'https://darzouras.com' + this.$page.index.header
+        },
+        {
+          key: 'twitter:image',
+          name: 'twitter:image',
+          content: 'https://darzouras.com' + this.$page.index.header
         }
       ]
     }

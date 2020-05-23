@@ -56,6 +56,12 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     content: 'Darlene Zouras is a UX developer and artist'
   })
 
+  head.meta.push({
+    key: 'twitter:creator',
+    name: 'twitter:creator',
+    content: '@darzouras'
+  })
+
   router.beforeEach((to, _from, next) => {
     head.meta.push({
       key: 'og:url',

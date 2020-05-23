@@ -45,8 +45,39 @@ export default {
             title: this.$page.contact.title,
             meta: [
                 {
+                    key: 'og:title',
+                    name: 'og:title',
+                    content: this.$page.contact.title
+                },
+                {
+                    key: 'twitter:title',
+                    name: 'twitter:title',
+                    content: this.$page.contact.title
+                },
+                {
+                    key: 'description',
                     name: 'description',
                     content: this.$page.contact.summary
+                },
+                {
+                    key: 'og:description',
+                    name: 'og:description',
+                    content: this.$page.contact.summary
+                },
+                {
+                    key: 'twitter:description',
+                    name: 'twitter:description',
+                    content: this.$page.conctact.summary
+                },
+                {
+                    key: 'og:image',
+                    name: 'og:image',
+                    content: 'https://darzouras.com' + this.$page.contact.header
+                },
+                {
+                    key: 'twitter:image',
+                    name: 'twitter:image',
+                    content: 'https://darzouras.com' + this.$page.contact.header
                 }
             ]
         }

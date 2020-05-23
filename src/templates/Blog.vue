@@ -50,8 +50,39 @@ export default {
             title: 'Blog',
             meta: [
                 {
+                    key: 'og:title',
+                    name: 'og:title',
+                    content: 'Blog'
+                },
+                {
+                    key: 'twitter:title',
+                    name: 'twitter:title',
+                    content: 'Blog'
+                },
+                {
+                    key: 'description',
                     name: 'description',
                     content: this.$page.blog.summary
+                },
+                {
+                    key: 'og:description',
+                    name: 'og:description',
+                    content: this.$page.blog.summary
+                },
+                {
+                    key: 'twitter:description',
+                    name: 'twitter:description',
+                    content: this.$page.blog.summary
+                },
+                {
+                    key: 'og:image',
+                    name: 'og:image',
+                    content: 'https://darzouras.com' + this.$page.blog.header
+                },
+                {
+                    key: 'twitter:image',
+                    name: 'twitter:image',
+                    content: 'https://darzouras.com' + this.$page.blog.header
                 }
             ] 
         }
