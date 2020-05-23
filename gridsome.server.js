@@ -6,7 +6,5 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function (api) {
-  api.loadSource(async store => {
-    store.addMetadata('header', '/uploads/sailormoonattitude1.PNG')
-  })
+  
 }

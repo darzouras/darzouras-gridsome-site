@@ -2,21 +2,13 @@
     <header :style="headerStyle"></header>
 </template>
 
-<static-query>
-query {
-    metadata {
-        header
-    }
-}
-</static-query>
-
 <script>
 export default {
     name: 'Header',
     computed: {
         headerStyle() {
             return {
-                "background-image": "url(" + this.$static.metadata.header + ")"
+                "background-image": "url(" + this.$store.state.headerbg + ")"
             }
         }
     }

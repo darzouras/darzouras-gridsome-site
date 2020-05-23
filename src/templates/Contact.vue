@@ -49,6 +49,14 @@ export default {
                 }
             ]
         }
+    },
+    methods: {
+        setHeader() {
+            this.$store.dispatch('setHeader', this.$page.contact.header)
+        }
+    },
+    created() {
+        this.setHeader()
     }
 }
 </script>
