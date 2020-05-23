@@ -32,6 +32,7 @@
             title
             content
             header
+            summary
         }
     }
 </page-query>
