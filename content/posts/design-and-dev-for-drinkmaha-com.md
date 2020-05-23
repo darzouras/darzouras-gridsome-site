@@ -5,6 +5,7 @@ summary: Stepped into a design role for this new AB project.
 tags:
   - work
   - 160over90
+  - design
 header: /uploads/maha-header1.png
 ---
 Early this year the team was presented with the opportunity to work with Maha, a new organic hard seltzer brand from Anheuser Busch. It's a new brand so it was an exciting challenge to help establish their voice from the beginning.
