@@ -107,6 +107,13 @@ module.exports = {
         publicPath: '/admin',
       }
     },
+
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-146827146-1'
+      }
+    }
   ],
 
   chainWebpack(config) {
