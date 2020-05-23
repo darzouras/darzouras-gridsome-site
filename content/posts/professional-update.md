@@ -5,7 +5,7 @@ summary: Corporate name change and a fresh new position.
 tags:
   - 160over90
   - work
-header: static/uploads/screenshot_2020-05-23-160over90-a-full-service-creative-agency.png
+header: uploads/screenshot_2020-05-23-160over90-a-full-service-creative-agency.png
 ---
 OK, so, I haven't been great at keeping this updated but I also meant to do it only when projects launched and stuff and I GUESS I've been working on the same thing for the past few months and it still hasn't gone live.
 
