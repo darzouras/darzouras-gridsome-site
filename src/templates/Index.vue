@@ -20,7 +20,7 @@
 export default {
   metaInfo() {
     return {
-      title: 'Hello, world!',
+      title: 'Home',
       meta: [
         {
           name: 'description',

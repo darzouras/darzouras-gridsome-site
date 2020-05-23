@@ -57,7 +57,8 @@ export default {
 
     main {
       width: 90%;
-      padding: 1em 5% 2em;
+      padding: 1em 0 2em;
+      margin: auto;
     }
   }
 </style>
