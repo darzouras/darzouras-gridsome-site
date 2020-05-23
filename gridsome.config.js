@@ -18,6 +18,7 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: 'DarZouras.com',
+  icon: '/favicon.ico',
 
   templates: {
     Index: '/',
