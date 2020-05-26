@@ -1,8 +1,7 @@
 ---
 title: Now brought to you by Gridsome
 date: 2020-05-23T16:33:44.199Z
-summary: Spending Memorial Day weekend rebuilding this website in
-  Gridsome
+summary: Spending Memorial Day weekend rebuilding this website in Gridsome
 tags:
   - jamstack
 header: /uploads/screenshot_2020-05-23-modern-site-generator-for-vue-js-gridsome.png
@@ -17,11 +16,11 @@ About to look into their plugin library so I can shove some unnecessary function
 
 ## TODO:
 
-* Get OG data in head working ([try this?](https://timdeschryver.dev/blog/gridsome-social-cards))
+* ~~Get OG data in head working ([try this?](https://timdeschryver.dev/blog/gridsome-social-cards))~~
 * Figure out how to add a Service-worker, make this a PWA ([this plugin?](https://gridsome.org/plugins/gridsome-plugin-pwa) or [this plugin?](https://gridsome.org/plugins/gridsome-plugin-service-worker))
 * Get blog tags working
 * Get all 100s in Lighthouse audit
-* Put Google Analytics back ([plugin?](https://gridsome.org/plugins/@gridsome/plugin-google-analytics))
+* ~~Put Google Analytics back ([plugin?](https://gridsome.org/plugins/@gridsome/plugin-google-analytics))~~
 * Update queries so that they don't pull in huge images ([reference?](https://gridsome.org/docs/images/))
-* Look into partial builds on Netlify so that it doesn't take forever to build???
+* ~~Look into partial builds on Netlify so that it doesn't take forever to build???~~
 * Write up notes based on things that were not made obvious by Gridsome + NetlifyCMS docs
