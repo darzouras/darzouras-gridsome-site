@@ -137,7 +137,16 @@ module.exports = {
           }
         }
       }
-    }
+    },
+    {
+      use: "gridsome-plugin-service-worker",
+      options: {
+        networkFirst: {
+          cacheName: "nf-v1",
+          routes: ["/", /\.(js|css|png)/],
+        },
+      },
+    },
   ],
 
   chainWebpack(config) {
