@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
     nav {
-        background: $darkest;
+        background: $midtone;
         padding: .75em 1em .75em;
         text-align: center;
 
@@ -36,7 +36,7 @@ export default {
             margin: 0 auto;
             justify-content: center;
             padding: 0;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
 
             li {
                 margin: .3rem 0;
@@ -51,7 +51,7 @@ export default {
                     padding: .1rem .3rem;
 
                     &:hover {
-                        background: $midtone;
+                        background: $darkest;
                     }
                 }
             }
