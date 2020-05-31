@@ -138,27 +138,6 @@ module.exports = {
         }
       }
     },
-    {
-      use: "gridsome-plugin-service-worker",
-      options: {
-        networkFirst: {
-          cacheName: "nf-v1",
-          routes: ["/", /\.(js|css|png)/],
-        },
-      },
-    },
-
-    {
-      use: "gridsome-plugin-manifest",
-      options: {
-          background_color: "#fef6e9",
-          icon_path: "src/assets/icon.PNG",
-          name: "DarZouras.com",
-          short_name: "DarZouras",
-          theme_color: "#856d9d",
-          lang: "en",
-      },
-    }
   ],
 
   chainWebpack(config) {
