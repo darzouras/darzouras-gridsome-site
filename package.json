@@ -19,6 +19,7 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "gridsome-plugin-manifest": "^0.3.4",
     "gridsome-plugin-service-worker": "^0.1.5",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",

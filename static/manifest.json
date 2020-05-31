@@ -1,11 +1,48 @@
 {
-    "manifest_version": 1,
-
+    "background_color": "#fef6e9",
+    "icon_path": "src/assets/icon.PNG",
     "name": "DarZouras.com",
-
-    "version": "1.0",
-
-    "description": "Darlene is a front-of-the-front-end developer and UX developer at 160/90",
-
-    "homepage_url": "https://darzouras.com"
+    "short_name": "DarZouras",
+    "theme_color": "#856d9d",
+    "lang": "en",
+    "display": "minimal-ui",
+    "file_name": "manifest.json",
+    "orientation": "any",
+    "scope": "/",
+    "start_url": "/",
+    "dir": "auto",
+    "prefer_related_applications": false,
+    "related_applications": [],
+    "icons": [
+        {
+            "src": "/assets/img/icon-512.PNG",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/assets/img/icon-192.PNG",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/img/icon-144.PNG",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/assets/img/icon-96.PNG",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/assets/img/icon-72.PNG",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/assets/img/icon-48.PNG",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ]
 }

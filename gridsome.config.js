@@ -149,24 +149,37 @@ module.exports = {
     },
 
     {
+      use: "gridsome-plugin-manifest",
+      options: {
+          background_color: "#fef6e9",
+          icon_path: "src/assets/icon.PNG",
+          name: "DarZouras.com",
+          short_name: "DarZouras",
+          theme_color: "#856d9d",
+          lang: "en",
+      },
+    },
+
+    /* {
       use: 'gridsome-plugin-pwa',
       options: {
           title: 'DarZouras.com',
           startUrl: '/',
           display: 'standalone',
           statusBarStyle: 'default',
-          manifestPath: 'manifest.json',
-          disableServiceWorker: false,
+          manifestPath: 'static/manifest.json',
+          disableServiceWorker: true,
           serviceWorkerPath: 'service-worker.js',
           cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
-          shortName: 'Gridsome',
+          shortName: 'DarZouras',
           themeColor: '#856d9d',
           backgroundColor: '#fef6e9',
-          icon: 'facicon.ico', // must be provided like 'src/favicon.png'
+          icon: 'src/assets/icon.PNG', // must be provided like 'src/favicon.png'
           msTileImage: '',
           msTileColor: '#856d9d'
       }
-    },
+    }, */
+
   ],
 
   chainWebpack(config) {
