@@ -17,10 +17,10 @@ About to look into their plugin library so I can shove some unnecessary function
 ## TODO:
 
 * ~~Get OG data in head working ([try this?](https://timdeschryver.dev/blog/gridsome-social-cards))~~
-* Figure out how to add a Service-worker, make this a PWA ([this plugin?](https://gridsome.org/plugins/gridsome-plugin-pwa) or [this plugin?](https://gridsome.org/plugins/gridsome-plugin-service-worker))
+* ~~Figure out how to add a Service-worker,~~ make this a PWA ([this plugin?](https://gridsome.org/plugins/gridsome-plugin-pwa) or [this plugin?](https://gridsome.org/plugins/gridsome-plugin-service-worker))
 * Get blog tags working
 * Get all 100s in Lighthouse audit
 * ~~Put Google Analytics back ([plugin?](https://gridsome.org/plugins/@gridsome/plugin-google-analytics))~~
-* Update queries so that they don't pull in huge images ([reference?](https://gridsome.org/docs/images/))
+* ~~Update queries so that they don't pull in huge images ([reference?](https://gridsome.org/docs/images/))~~ trying out the netlify plugin that compresses images instead!
 * ~~Look into partial builds on Netlify so that it doesn't take forever to build???~~
 * Write up notes based on things that were not made obvious by Gridsome + NetlifyCMS docs
