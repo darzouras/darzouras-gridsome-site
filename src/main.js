@@ -84,11 +84,11 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
   head.link.push({
     rel: 'manifest',
-    href: 'manifest.json'
+    href: '/manifest.json'
   })
 
   head.script.push({
-    src: 'service-worker.js',
+    src: '/assets/js/load-sw.js',
     body: true
   })
 }

@@ -1,18 +1,14 @@
 {
-    "background_color": "#fef6e9",
-    "icon_path": "src/assets/icon.PNG",
+    "manifest_version": "1",
     "name": "DarZouras.com",
-    "short_name": "DarZouras",
-    "theme_color": "#856d9d",
-    "lang": "en",
+    "version": "darzouras-v1",
     "display": "minimal-ui",
-    "file_name": "manifest.json",
-    "orientation": "any",
-    "scope": "/",
+
     "start_url": "/",
-    "dir": "auto",
-    "prefer_related_applications": false,
-    "related_applications": [],
+    "scope": "/",
+    "description": "Darlene is a front-of-the-front-end dev and UX dev at 160over90",
+    "theme_color": "#856d9d",
+    "background_color": "#fef6e9",
     "icons": [
         {
             "src": "/assets/img/icon-512.PNG",
@@ -44,5 +40,7 @@
             "type": "image/png",
             "sizes": "48x48"
         }
-    ]
+    ],
+    "offline_enabled": "true",
+    "short_name": "DarZouras"
 }
