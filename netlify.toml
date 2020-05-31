@@ -1,6 +1,2 @@
-[build]
-command = "gridsome build"
-publish = "/opt/build/repo/dist"
-
 [[plugins]]
 package = "netlify-plugin-image-optim"
