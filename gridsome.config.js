@@ -158,28 +158,7 @@ module.exports = {
           theme_color: "#856d9d",
           lang: "en",
       },
-    },
-
-    /* {
-      use: 'gridsome-plugin-pwa',
-      options: {
-          title: 'DarZouras.com',
-          startUrl: '/',
-          display: 'standalone',
-          statusBarStyle: 'default',
-          manifestPath: 'static/manifest.json',
-          disableServiceWorker: true,
-          serviceWorkerPath: 'service-worker.js',
-          cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
-          shortName: 'DarZouras',
-          themeColor: '#856d9d',
-          backgroundColor: '#fef6e9',
-          icon: 'src/assets/icon.PNG', // must be provided like 'src/favicon.png'
-          msTileImage: '',
-          msTileColor: '#856d9d'
-      }
-    }, */
-
+    }
   ],
 
   chainWebpack(config) {
