@@ -147,6 +147,26 @@ module.exports = {
         },
       },
     },
+
+    {
+      use: 'gridsome-plugin-pwa',
+      options: {
+          title: 'DarZouras.com',
+          startUrl: '/',
+          display: 'standalone',
+          statusBarStyle: 'default',
+          manifestPath: 'manifest.json',
+          disableServiceWorker: false,
+          serviceWorkerPath: 'service-worker.js',
+          cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+          shortName: 'Gridsome',
+          themeColor: '#856d9d',
+          backgroundColor: '#fef6e9',
+          icon: 'facicon.ico', // must be provided like 'src/favicon.png'
+          msTileImage: '',
+          msTileColor: '#856d9d'
+      }
+    },
   ],
 
   chainWebpack(config) {
