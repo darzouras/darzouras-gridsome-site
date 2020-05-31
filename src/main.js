@@ -62,6 +62,12 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     content: '@darzouras'
   })
 
+  head.meta.push({
+    key: 'theme-color',
+    name: 'theme-color',
+    conten: '#856d9d'
+  })
+
   router.beforeEach((to, _from, next) => {
     head.meta.push({
       key: 'og:url',
