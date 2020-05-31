@@ -18,6 +18,7 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: 'DarZouras.com',
+  siteUrl: 'https://darzouras.com',
   icon: '/favicon.ico',
 
   templates: {
@@ -112,6 +113,29 @@ module.exports = {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-146827146-1'
+      }
+    },
+
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        config: {
+          '/': {
+            changefreq: 'monthly'
+          },
+          '/now': {
+            changefreq: 'monthly'
+          },
+          '/uses': {
+            changefreq: 'monthly'
+          },
+          '/contact': {
+            changefreq: 'yearly'
+          },
+          '/blog/*': {
+            changefreq: 'weekly'
+          }
+        }
       }
     }
   ],
