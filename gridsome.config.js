@@ -27,7 +27,8 @@ module.exports = {
     Blog: '/blog',
     Post: '/blog/:title',
     Tag: '/tag/:id',
-    Main: '/:permalink'
+    Main: '/:permalink',
+    Work: '/work'
   },
 
   transformers: {
@@ -73,6 +74,17 @@ module.exports = {
       options: {
         path: 'content/blog.md',
         typeName: 'Blog',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/work.md',
+        typeName: 'Work',
         remark: {
           plugins: []
         }
