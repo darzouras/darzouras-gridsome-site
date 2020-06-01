@@ -1,30 +1,24 @@
 console.log('hi from sw')
+var CACHE_NAME = 'darzouras-v2'
+var urlsToCache = [
+  '/index.html'
+]
 
 self.addEventListener('install', function(event) {
-    var CACHE_NAME = 'darzouras-v1';
-    var urlsToCache = [
-        '/index.html',
-        '/contact/index.html',
-        '/now/index.html'
-    ];
-
-    self.addEventListener('install', function(event) {
-        // Perform install steps
-        event.waitUntil(
-            caches.open(CACHE_NAME)
-            .then(function(cache) {
-                console.log('Opened cache');
-                return cache.addAll(urlsToCache);
-            })
-        );
-    });
-
+    // Perform install steps
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+        .then(function(cache) {
+            console.log('Opened cache');
+            return cache.addAll(urlsToCache);
+        })
+    );
 });
 
 // removes old cache names
 self.addEventListener('activate', function(event) {
 
-    var cacheWhitelist = ['dzouras-v1'];
+    var cacheWhitelist = [ CACHE_NAME ];
   
     event.waitUntil(
       caches.keys().then(function(cacheNames) {
