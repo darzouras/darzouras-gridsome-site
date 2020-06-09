@@ -1,5 +1,5 @@
 ---
-title: Work
+title: Web
 summary: Personal and professional projects
 header: /uploads/sailormoonattitude1.png
 ---

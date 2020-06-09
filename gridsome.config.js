@@ -28,7 +28,18 @@ module.exports = {
     Post: '/blog/:title',
     Tag: '/tag/:id',
     Main: '/:permalink',
-    Work: '/work'
+    Art: [
+      {
+        path: '/art',
+        component: './src/templates/Work.vue'
+      }
+    ],
+    Web: [
+      {
+        path: '/web',
+        component: './src/templates/Work.vue'
+      }
+    ]
   },
 
   transformers: {
@@ -83,8 +94,19 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/work.md',
-        typeName: 'Work',
+        path: 'content/web.md',
+        typeName: 'Web',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/art.md',
+        typeName: 'Art',
         remark: {
           plugins: []
         }
