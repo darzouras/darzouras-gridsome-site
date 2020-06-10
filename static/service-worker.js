@@ -1,5 +1,5 @@
 console.log('hi from sw')
-var CACHE_NAME = 'darzouras-v2'
+var CACHE_NAME = 'darzouras-v2.1'
 var urlsToCache = [
   '/index.html'
 ]

@@ -28,7 +28,8 @@ module.exports = {
     Post: '/blog/:title',
     Tag: '/tag/:id',
     Main: '/:permalink',
-    Work: '/work'
+    Web: "/web",
+    Art: "/art",
   },
 
   transformers: {
@@ -61,6 +62,28 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'content/art.md',
+        typeName: 'Art',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/web.md',
+        typeName: 'Web',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'content/pages/*.md',
         typeName: 'Main',
         remark: {
@@ -74,17 +97,6 @@ module.exports = {
       options: {
         path: 'content/blog.md',
         typeName: 'Blog',
-        remark: {
-          plugins: []
-        }
-      }
-    },
-
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/work.md',
-        typeName: 'Work',
         remark: {
           plugins: []
         }
