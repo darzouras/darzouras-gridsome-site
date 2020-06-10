@@ -29,6 +29,7 @@ module.exports = {
     Tag: '/tag/:id',
     Main: '/:permalink',
     Web: "/web",
+    WebPost: "/web/:title",
     Art: "/art",
   },
 
@@ -75,6 +76,17 @@ module.exports = {
       options: {
         path: 'content/web.md',
         typeName: 'Web',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/web/*.md',
+        typeName: 'WebPost',
         remark: {
           plugins: []
         }

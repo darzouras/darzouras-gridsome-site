@@ -4,7 +4,8 @@
 
     <div v-html="$page.web.content"></div>
 
-    
+    <WorkPostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+
   </Layout>
 </template>
 
@@ -16,15 +17,42 @@
       summary
       header
     }
+
+    posts: allWebPost {
+      edges {
+        node {
+          id
+          title
+          summary
+          header
+          path
+        }
+      }
+    }
   }
 </page-query>
 
 <script>
+import WorkPostList from '~/components/workpostlist.vue'
+
 export default {
+  components: {
+    WorkPostList
+  },
   metaInfo() {
     return {
-      title: 'Home',
+      title: this.$page.web.title,
       meta: [
+        {
+          key: 'og:title',
+          name: 'og:title',
+          content: this.$page.web.title
+        },
+        {
+          key: 'twitter:title',
+          name: 'twitter:title',
+          content: this.$page.web.title
+        },
         {
           key: 'description',
           name: 'description',
@@ -60,6 +88,9 @@ export default {
   },
   created() {
       this.setHeader()
+  },
+  updated() {
+    this.setHeader()
   }
 }
 </script>
