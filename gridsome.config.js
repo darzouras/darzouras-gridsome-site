@@ -170,6 +170,9 @@ module.exports = {
           },
           '/blog/*': {
             changefreq: 'weekly'
+          },
+          '/web/*': {
+            changefreq: 'weekly'
           }
         }
       }
