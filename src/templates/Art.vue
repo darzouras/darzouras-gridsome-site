@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>DarZouras.com</h1>
+    <h1 v-html="$page.art.title"></h1>
 
     <div v-html="$page.art.content"></div>
   </Layout>

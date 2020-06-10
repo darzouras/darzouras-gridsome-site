@@ -1,14 +1,17 @@
 <template>
   <Layout>
-    <h1>DarZouras.com</h1>
+    <h1 v-html="$page.web.title"></h1>
 
     <div v-html="$page.web.content"></div>
+
+    
   </Layout>
 </template>
 
 <page-query>
   query ($id: ID!) {
     web (id: $id) {
+      title
       content
       summary
       header
