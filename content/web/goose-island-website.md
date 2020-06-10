@@ -1,7 +1,7 @@
 ---
 title: Goose Island website
 date: 2020-06-10T00:53:50.759Z
-summary: The Goose Island project was a rebuild to complement their new branding
+summary: The Goose Island project was a rebuild to complement their new branding.
 header: /uploads/screenshot_2020-06-09-goose-island-home.jpg
 ---
 ## The ask:
