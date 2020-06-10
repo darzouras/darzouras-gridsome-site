@@ -28,18 +28,8 @@ module.exports = {
     Post: '/blog/:title',
     Tag: '/tag/:id',
     Main: '/:permalink',
-    Art: [
-      {
-        path: '/art',
-        component: './src/templates/Work.vue'
-      }
-    ],
-    Web: [
-      {
-        path: '/web',
-        component: './src/templates/Work.vue'
-      }
-    ]
+    Web: "/web",
+    Art: "/art",
   },
 
   transformers: {
@@ -72,19 +62,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/pages/*.md',
-        typeName: 'Main',
-        remark: {
-          plugins: []
-        }
-      }
-    },
-
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/blog.md',
-        typeName: 'Blog',
+        path: 'content/art.md',
+        typeName: 'Art',
         remark: {
           plugins: []
         }
@@ -105,8 +84,19 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/art.md',
-        typeName: 'Art',
+        path: 'content/pages/*.md',
+        typeName: 'Main',
+        remark: {
+          plugins: []
+        }
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/blog.md',
+        typeName: 'Blog',
         remark: {
           plugins: []
         }
