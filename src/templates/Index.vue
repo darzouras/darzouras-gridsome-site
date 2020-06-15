@@ -29,7 +29,7 @@ export default {
         },
         {
           key: 'og:description',
-          name: 'description',
+          name: 'og:description',
           content: this.$page.index.summary
         },
         {

@@ -13,7 +13,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('Layout', DefaultLayout)
   Vue.use(Vuex);
 
-  Vue.filter('formatDate', function(value) {
+  Vue.filter('formatDate', function (value) {
     if (value) {
       return moment(String(value)).format('MMMM DD, YYYY')
     }
@@ -24,7 +24,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       headerbg: '/uploads/sailormoonattitude1.PNG'
     },
     mutations: {
-      REPLACE_BG (state, img) {
+      REPLACE_BG(state, img) {
         state.headerbg = img
       }
     },
@@ -65,7 +65,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   head.meta.push({
     key: 'theme-color',
     name: 'theme-color',
-    conten: '#856d9d'
+    content: '#856d9d'
   })
 
   router.beforeEach((to, _from, next) => {
