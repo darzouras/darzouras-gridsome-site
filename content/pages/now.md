@@ -25,7 +25,7 @@ Preparing to eventually take the [Web Accessibility Standards certification exam
 
 * [Elysian Brewing website](https://www.elysianbrewing.com)
 * [Blue Point Brewing website](https://www.bluepointbrewing.com)
-* [Grey Eagle Distributors website](https://greyeagle.com)
+* [Grey Eagle Distributors website](http://greyeagle.com)
 * [The Friedkin Group website](https://friedkin.com)
 * [Pursuit Aviation website](https://pursuitaviation.com)
 * [KidSmart STL website](https://kidsmartstl.org)
@@ -45,4 +45,5 @@ Preparing to eventually take the [Web Accessibility Standards certification exam
 * [Otello Lambrusco website](https://www.otellolambrusco.com/)
 * [Ecco Domani website](http://eccodomani.com)
 * [Maha Organic Seltzer website](https://www.drinkmaha.com) (design and dev)
-* 160over90 website updates (design and dev)
+* [160over90 website Expertise section](https://www.160over90.com/expertise) (design and dev)
+* [Congaree Foundation website and portal](http://congareefoundation.org/)
