@@ -3,7 +3,7 @@ title: Now
 permalink: now
 layout: layouts/Default.vue
 summary: What have I been up to?
-header: /uploads/sailormoonattitude1.PNG
+header: /uploads/delores1.jpg
 ---
 What have I been up to? And [what is a now page](https://nownownow.com/about)?
 
