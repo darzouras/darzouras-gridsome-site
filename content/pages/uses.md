@@ -2,13 +2,13 @@
 title: Uses
 permalink: uses
 layout: layouts/Default.vue
-header: /uploads/uses_header1.jpg
 summary: A list of some of my current favs for work and play.
+header: /uploads/uses_header1.jpg
 ---
 * Overcast for podcasts
 * Spotify Premium for music
 * Netflix, VRV for streaming videos
-* Day One for personal notes, journaling
+* Notion for personal notes, journaling
 * Notion for work notes, task organization
 
 ## Design + Development
