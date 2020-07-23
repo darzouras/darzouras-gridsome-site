@@ -47,4 +47,5 @@ Preparing to eventually take the [Web Accessibility Standards certification exam
 * [Maha Organic Seltzer website](https://www.drinkmaha.com) (design and dev)
 * [160over90 website Expertise section](https://www.160over90.com/expertise) (design and dev)
 * [Congaree Foundation website and portal](http://congareefoundation.org/)
+* [Barefoot Furry Friends quiz](https://barefootfurryfriends.com/)
 * [UBS Arena at Belmont Park website](https://ubsarena.com)
