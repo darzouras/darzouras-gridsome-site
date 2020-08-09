@@ -15,7 +15,6 @@
       title
       content
       summary
-      header
     }
 
     posts: allWebPost {
@@ -80,17 +79,6 @@ export default {
         }
       ]
     }
-  },
-  methods: {
-      setHeader() {
-          this.$store.dispatch('setHeader', this.$page.web.header)
-      }
-  },
-  created() {
-      this.setHeader()
-  },
-  updated() {
-    this.setHeader()
   }
 }
 </script>
