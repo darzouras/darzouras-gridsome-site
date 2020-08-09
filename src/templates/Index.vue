@@ -11,7 +11,6 @@
     index (id: $id) {
       content
       summary
-      header
     }
   }
 </page-query>
@@ -49,14 +48,6 @@ export default {
         }
       ]
     }
-  },
-  methods: {
-      setHeader() {
-          this.$store.dispatch('setHeader', this.$page.index.header)
-      }
-  },
-  created() {
-      this.setHeader()
   }
 }
 </script>

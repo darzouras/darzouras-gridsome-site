@@ -19,7 +19,6 @@
             date
             summary
             content
-            header
         }
     }
 </page-query>
@@ -78,17 +77,6 @@ export default {
                 }
             ]
         }
-    },
-    methods: {
-        setHeader() {
-            this.$store.dispatch('setHeader', this.$page.post.header)
-        }
-    },
-    created() {
-        this.setHeader()
-    },
-    updated() {
-        this.setHeader()
     }
 }
 </script>

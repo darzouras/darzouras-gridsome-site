@@ -11,7 +11,6 @@
         main: main (id: $id) {
             title
             content
-            header
             summary
         }
     }
@@ -60,17 +59,6 @@ export default {
                 }
             ]
         }
-    },
-    methods: {
-        setHeader() {
-            this.$store.dispatch('setHeader', this.$page.main.header)
-        }
-    },
-    created() {
-        this.setHeader()
-    },
-    updated() {
-        this.setHeader()
     }
 }
 </script>

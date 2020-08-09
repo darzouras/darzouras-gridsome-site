@@ -19,22 +19,6 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     }
   });
 
-  appOptions.store = new Vuex.Store({
-    state: {
-      headerbg: '/uploads/sailormoonattitude1.PNG'
-    },
-    mutations: {
-      REPLACE_BG(state, img) {
-        state.headerbg = img
-      }
-    },
-    actions: {
-      setHeader({ commit }, event) {
-        commit('REPLACE_BG', event);
-      }
-    }
-  })
-
   head.meta.push({
     key: 'og:title',
     name: 'og:title',

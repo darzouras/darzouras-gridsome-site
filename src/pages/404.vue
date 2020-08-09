@@ -19,14 +19,6 @@ export default {
                 }
             ]
         }
-    },
-    methods: {
-        setHeader() {
-            this.$store.dispatch('setHeader', '/uploads/iStock-1142986365.jpg')
-        }
-    },
-    created() {
-        this.setHeader()
     }
 }
 </script>
