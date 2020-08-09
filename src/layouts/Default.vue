@@ -1,7 +1,6 @@
 <template>
   <div class="body-wrapper">
     <Header />
-    <Navigation />
 
     <main>
       <slot />
@@ -13,13 +12,11 @@
 
 <script>
 import Header from '~/components/header.vue'
-import Navigation from '~/components/navigation.vue'
 import Footer from '~/components/footer.vue'
 
 export default {
   components: {
     Header,
-    Navigation,
     Footer
   }
 }
@@ -38,19 +35,21 @@ export default {
   }
 
   .body-wrapper {
-    width: 90%;
-    max-width: 500px;
-    margin: 1em auto 4em;
-    border: 3px solid $darkest;
+    width: 100%;
+    max-width: 666px;
     background: $lightest;
-    border-radius: 50px 50px 10px 10px;
     display: block;
     overflow: hidden;
+    margin: auto;
 
     main {
       width: 90%;
       padding: 1em 0 2em;
       margin: auto;
+    }
+
+    @include sm {
+      margin: 2rem auto 4rem;
     }
   }
 </style>

@@ -1,32 +1,20 @@
 <template>
-    <header :style="headerStyle"></header>
+    <header>
+        <Navigation />
+    </header>
 </template>
 
 <script>
+import Navigation from '~/components/navigation.vue'
+
 export default {
     name: 'Header',
-    computed: {
-        headerStyle() {
-            return {
-                "background-image": "url(" + this.$store.state.headerbg + ")"
-            }
-        }
+    components: {
+        Navigation
     }
 }
 </script>
 
 <style lang="scss" scoped>
-    header {
-        background-color: $darkest;
-        color: $lightest;
-        position: relative;
-        padding: 1em;
-        background-size: cover;
-        background-position: center;
-        height:175px;
 
-        @include sm {
-            height: 300px;
-        }
-    }
 </style>

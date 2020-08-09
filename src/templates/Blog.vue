@@ -31,7 +31,6 @@
         blog (id:$id) {
             title
             content
-            header
             summary
         }
     }
@@ -87,14 +86,6 @@ export default {
                 }
             ] 
         }
-    },
-    methods: {
-        setHeader() {
-            this.$store.dispatch('setHeader', this.$page.blog.header)
-        }
-    },
-    created() {
-        this.setHeader()
     }
 }
 </script>

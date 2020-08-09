@@ -12,7 +12,6 @@
         title
         content
         summary
-        header
     }
   }
 </page-query>
@@ -50,14 +49,6 @@ export default {
         }
       ]
     }
-  },
-  methods: {
-      setHeader() {
-          this.$store.dispatch('setHeader', this.$page.art.header)
-      }
-  },
-  created() {
-      this.setHeader()
   }
 }
 </script>
