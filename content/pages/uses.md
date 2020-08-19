@@ -22,17 +22,13 @@ header: /uploads/uses_header1.jpg
 
 ## Mechanical Keyboards
 
-* [Keeb.io](https://keeb.io)'s Levinson split keyboard w/ Cherry Clears, [DSA Astrolokeys](https://drop.com/buy/drop-dsa-astrolokeys-keycaps-by-sailorhg-and-cassidoo) (daily)
+* [Ergodox EZ](https://ergodox-ez.com) w/ Halo Clears, original keycaps (daily at home)
+* [Keeb.io](https://keeb.io)'s Levinson split keyboard w/ Cherry Clears, [DSA Astrolokeys](https://drop.com/buy/drop-dsa-astrolokeys-keycaps-by-sailorhg-and-cassidoo)
 * Leopold FC660M w/ Cherry Browns, [GMK Plum](https://drop.com/buy/massdrop-x-jessica-gmk-plum-custom-keycap-set) (daily, at the office)
 * OLKB Planck w/ Cherry Clears, [XDA Oblique](https://dixiemech.store/collections/keycaps/products/xda-oblique)
-* K-Type Mechanical Keyboard w/ Halo Clears, [GMK Metropolis](https://novelkeys.xyz/products/gmk-metropolis)
+* K-Type Mechanical Keyboard w/ Zailh Silver Speed, [GMK Metropolis](https://novelkeys.xyz/products/gmk-metropolis)
 * Ducky One w/ Cherry Blues, translucent pink body
 * Ducky numpad w/ Cherry Browns
-
-### Keyboard Wishlist
-
-* [Naked60MP](https://www.littlekeyboards.com/collections/catalog/products/naked60bmp-keyboard-kit) for traveling
-* [Ergodox EZ](https://ergodox-ez.com) for a second split keyboard for office
 
 ## Computers
 
