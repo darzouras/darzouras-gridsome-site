@@ -5,12 +5,6 @@ layout: layouts/Default.vue
 summary: A list of some of my current favs for work and play.
 header: /uploads/uses_header1.jpg
 ---
-* Overcast for podcasts
-* Spotify Premium for music
-* Netflix, VRV for streaming videos
-* Notion for personal notes, journaling
-* Notion for work notes, task organization
-
 ## Design + Development
 
 * Sketch (for UX/UI design)
@@ -19,6 +13,7 @@ header: /uploads/uses_header1.jpg
 * Filezilla
 * Mozilla Firefox
 * Wave, Axe Pro for quick accessibility checks
+* Notion for note keeping
 
 ## Mechanical Keyboards
 
@@ -29,9 +24,3 @@ header: /uploads/uses_header1.jpg
 * K-Type Mechanical Keyboard w/ Zailh Silver Speed, [GMK Metropolis](https://novelkeys.xyz/products/gmk-metropolis)
 * Ducky One w/ Cherry Blues, translucent pink body
 * Ducky numpad w/ Cherry Browns
-
-## Computers
-
-* Macbook Pro + LG Ultrawide monitor (daily, at home)
-* Macbook Pro + 2 extra random monitors (daily, at work)
-* A still-reliable-somehow 6 year old iMac.
