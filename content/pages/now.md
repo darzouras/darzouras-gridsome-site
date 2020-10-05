@@ -45,3 +45,4 @@ Preparing to eventually take the [Web Accessibility Standards certification exam
 * [Congaree Foundation website and portal](http://congareefoundation.org/)
 * [Barefoot Furry Friends quiz](https://barefootfurryfriends.com/)
 * [UBS Arena at Belmont Park website](https://ubsarena.com)
+* [IEQ Capital website](https://ieqcapital.com)
