@@ -11,38 +11,12 @@ What have I been up to? And [what is a now page](https://nownownow.com/about)?
 
 My husband and I are wrapping up our first year of home-ownership, finally working on selecting our last big furniture pieces and actually settling in.
 
+Personal and professional life bleeding into each other a little bit as I have been working from home since mid-March. Love that commute has been removed and that I get to hang out with my furry babies all day.
+
 ## Professionally
 
 Building TONS of websites for [160over90](https://160over90.com). Practicing CSS magic and passing my practice to willing colleagues. Helping assess web projects built across the 160over90 digital teams on web accessibility. Also doing a little bit of web design. Working from home for the foreseeable future.
 
 Preparing to eventually take the [Web Accessibility Standards certification exam](https://www.accessibilityassociation.org/wascertification).
 
-### Ongoing Maintenance and Updates
-
-* [Elysian Brewing website](https://www.elysianbrewing.com)
-* [Blue Point Brewing website](https://www.bluepointbrewing.com)
-* [Grey Eagle Distributors website](http://greyeagle.com)
-* [The Friedkin Group website](https://friedkin.com)
-* [Pursuit Aviation website](https://pursuitaviation.com)
-* [KidSmart STL website](https://kidsmartstl.org)
-
-### 2019 Projects
-
-* [Air Force Heritage Flight Foundation website](https://www.airforceheritageflight.org/)
-* [Goose Island website redesign](https://www.gooseisland.com)
-* [Horsemen Flight Team website](http://horsemenflight.com/)
-* [The Jayson Tatum Foundation website](https://www.thejaysontatumfoundation.org/)
-* [160over90 website](https://160over90.com)
-* [Fusion Marketing website](https://www.thisisfusion.com/)
-
-### 2020 Projects
-
-* [University of Illinois Altogether Extraordinary campaign pages](https://www.uillinois.edu/extraordinary)
-* [Otello Lambrusco website](https://www.otellolambrusco.com/)
-* [Ecco Domani website](http://eccodomani.com)
-* [Maha Organic Seltzer website](https://www.drinkmaha.com) (design and dev)
-* [160over90 website Expertise section](https://www.160over90.com/expertise) (design and dev)
-* [Congaree Foundation website and portal](http://congareefoundation.org/)
-* [Barefoot Furry Friends quiz](https://barefootfurryfriends.com/)
-* [UBS Arena at Belmont Park website](https://ubsarena.com)
-* [IEQ Capital website](https://ieqcapital.com)
+To check out some of the projects I've worked on recently you can [check out the work page](/work).
