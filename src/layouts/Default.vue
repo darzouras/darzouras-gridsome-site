@@ -1,39 +1,24 @@
 <template>
-  <div class="body-wrapper">
-    <Header />
+  <div>
+    <Navigation />
 
     <main>
       <slot />
     </main>
-
-    <Footer />
   </div>
 </template>
 
 <script>
-import Header from '~/components/header.vue'
-import Footer from '~/components/footer.vue'
+import Navigation from '~/components/navigation.vue'
 
 export default {
   components: {
-    Header,
-    Footer
+    Navigation
   }
 }
 </script>
 
 <style lang="scss" scoped>
-  @font-face {
-      src: url('../assets/fonts/PublicSans-Roman-VF.woff2');
-      font-family: "Public Sans";
-      font-style: normal;
-  }
-  @font-face {
-      src: url('../assets/fonts/PublicSans-Italic-VF.woff2');
-      font-family: "Public Sans Italic";
-      font-style: italic;
-  }
-
   @font-face {
     src: url('../assets/fonts/FantasqueSansMono-Regular.woff2');
     font-family: "Fantasque Sans Mono";
@@ -57,22 +42,14 @@ export default {
     font-weight: bold;
   }
 
-  .body-wrapper {
-    width: 100%;
+  main {
+    width: 90%;
     max-width: 666px;
-    background: $lightest;
-    display: block;
-    overflow: hidden;
-    margin: auto;
+    padding: 1em 0 2em;
+    margin: 25px 5% 75px;
 
-    main {
-      width: 90%;
-      padding: 1em 0 2em;
-      margin: auto;
-    }
-
-    @include sm {
-      margin: 2rem auto 4rem;
+    @include md {
+      margin: 75px 5% 50px;
     }
   }
 </style>
