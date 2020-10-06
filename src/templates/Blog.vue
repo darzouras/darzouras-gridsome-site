@@ -2,7 +2,7 @@
     <Layout>
         <h1>Blog</h1>
         
-        <div v-html="$page.blog.content"></div>
+        <div v-html="$page.blog.content" class="content-top"></div>
 
         <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
 

@@ -2,7 +2,9 @@
   <Layout>
     <h1>DarZouras.com</h1>
 
-    <div v-html="$page.index.content"></div>
+    <div v-html="$page.index.content" class="content-top"></div>
+
+    <h2>News and Updates</h2>
 
     <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
 
