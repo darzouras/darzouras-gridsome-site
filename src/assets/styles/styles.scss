@@ -1,3 +1,6 @@
+:root {
+    font-size: 62.5%;
+}
 * {
     box-sizing: border-box;
 }
@@ -11,15 +14,11 @@ body {
     font-family: $fonts;
     background: $lightest;
     color: $darkest;
+    font-size: 1.6rem;
+
     @include dm{
         background: $darkest;
         color: $lightest;
-    }
-
-    @include font-weight(250);
-
-    @include sm {
-        font-size: 115%;
     }
 
     /* link styling */
@@ -42,7 +41,7 @@ body {
 
     /* titles */
     h1 {
-        font-size: 2.4rem;
+        font-size: 3.6rem;
         letter-spacing: 0em;
         @include font-weight(bold);
         line-height: .8em;
@@ -55,7 +54,7 @@ body {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.4rem;
         letter-spacing: 0.1em;
         @include font-weight(bold);
         line-height: .8em;
@@ -77,7 +76,8 @@ body {
 
     /* text */
     p {
-        margin: 0 auto 1rem;
+        margin: 0 auto 1.6rem;
+        line-height: 1.1em;
     }
 
     ul {

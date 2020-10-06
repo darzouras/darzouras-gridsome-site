@@ -48,7 +48,7 @@ export default {
             margin: 0 auto;
             justify-content: center;
             padding: 0;
-            font-size: 1.3rem;
+            font-size: 2.4rem;
 
             li {
                 margin: 0;
@@ -78,7 +78,7 @@ export default {
                     color: $lightest;
                     margin: 0 .5rem;
                     text-decoration: none;
-                    text-transform: uppercase;
+                    text-transform: lowercase;
                     font-weight: 750;
                     font-variation-settings: 'wght' 750;
                     letter-spacing: .2em;
