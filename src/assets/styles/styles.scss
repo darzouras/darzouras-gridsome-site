@@ -11,6 +11,10 @@ body {
     font-family: $fonts;
     background: $lightest;
     color: $darkest;
+    @include dm{
+        background: $darkest;
+        color: $lightest;
+    }
 
     @include font-weight(250);
 
@@ -33,21 +37,22 @@ body {
 
     /* titles */
     h1 {
-        font-size: 3rem;
-        letter-spacing: 0.1em;
-        @include font-weight(750);
-        text-transform: uppercase;
+        font-size: 2.4rem;
+        letter-spacing: 0em;
+        @include font-weight(bold);
         line-height: .8em;
         word-wrap: break-word;
         margin-bottom: 1rem;
-        color: $midtone
+        color: $midtone;
+        @include dm{
+            color: $light-green;
+        }
     }
 
     h2 {
         font-size: 2rem;
         letter-spacing: 0.1em;
-        @include font-weight(750);
-        text-transform: uppercase;
+        @include font-weight(bold);
         line-height: .8em;
         word-wrap: break-word;
     }

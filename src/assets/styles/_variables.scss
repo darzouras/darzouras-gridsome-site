@@ -1,7 +1,10 @@
-$lightest: #fef6e9;
-$light: #ffc3c1;
-$midtone: #856d9d;
-$darkest: #010101;
+$lightest: #e8eddf;
+$light: #44355b;
+$midtone: #31263e;
+$darkest: #221e22;
+$light-green: #44ddae;
+$midtone-green: #1fc19e;
+$darkest-green: #0b987c;
 
 $fonts: "Fantasque Sans Mono", Arial, Helvetica, sans-serif;
 
@@ -31,7 +34,13 @@ $screen-xl-min: 1200px;
    }
 }
 
+@mixin dm {
+    @media (prefers-color-scheme: dark) {
+        @content;
+    }
+}
+
 @mixin font-weight($property) {
     font-weight: $property;
-    font-variation-settings: 'wght' $property;
+    /* font-variation-settings: 'wght' $property; */
 }
