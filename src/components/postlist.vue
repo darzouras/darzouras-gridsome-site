@@ -1,6 +1,6 @@
 <template>
     <article>
-        <h2><g-link :to="post.path">{{ post.title }}</g-link></h2>
+        <h3><g-link :to="post.path">{{ post.title }}</g-link></h3>
         <Timestamp v-bind:time="post.date" />
 
         <p v-html="post.summary"></p>
@@ -23,7 +23,7 @@ export default {
     article {
         margin-bottom: 3rem;
 
-        h2 {
+        h3 {
             margin-bottom: .5rem;
         }
     }

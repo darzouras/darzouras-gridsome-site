@@ -3,20 +3,47 @@
     <h1>DarZouras.com</h1>
 
     <div v-html="$page.index.content"></div>
+
+    <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+
+    <p><g-link to="/blog">See all posts</g-link></p>
   </Layout>
 </template>
 
 <page-query>
-  query ($id: ID!) {
+  query ($page: Int, $id: ID!) {
     index (id: $id) {
       content
       summary
+    }
+
+    posts: allPost(perPage: 3, page: $page) @paginate {
+        pageInfo {
+            totalPages
+            currentPage
+        }
+        edges {
+            node {
+                id
+                title
+                date
+                summary
+                path
+            }
+        }
     }
   }
 </page-query>
 
 <script>
+import PostList from '~/components/postlist.vue'
+import { Pager } from 'gridsome'
+
 export default {
+  components: {
+        PostList,
+        Pager
+  },
   metaInfo() {
     return {
       title: 'Home',
