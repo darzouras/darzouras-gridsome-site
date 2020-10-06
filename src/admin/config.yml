@@ -24,9 +24,9 @@ collections:
         - label: "Body"
           name: "body"
           widget: "markdown"
-      - label: "Web"
-        name: "web"
-        file: "content/web.md"
+      - label: "Work"
+        name: "work"
+        file: "content/work.md"
         fields:
         - label: "Title"
           name: "title"
@@ -135,9 +135,9 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "web"
-    label: "Web"
-    folder: "content/web"
+  - name: "work"
+    label: "Work"
+    folder: "content/work"
     create: true
     slug: "{{slug}}"
     fields: 

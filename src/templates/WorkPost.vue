@@ -7,8 +7,8 @@
 </template>
 
 <page-query>
-    query WebPost ($id: ID!) {
-        post: webPost (id: $id) {
+    query WorkPost ($id: ID!) {
+        post: workPost (id: $id) {
             title
             summary
             content

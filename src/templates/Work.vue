@@ -1,23 +1,25 @@
 <template>
   <Layout>
-    <h1 v-html="$page.web.title"></h1>
+    <h1 v-html="$page.work.title"></h1>
 
-    <div v-html="$page.web.content"></div>
+    <div v-html="$page.work.content"></div>
 
     <WorkPostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+
+    <p>I'm always excited for new opportunities. You can <g-link to="/contact">contact me</g-link> if you want to connect.</p>
 
   </Layout>
 </template>
 
 <page-query>
   query ($id: ID!) {
-    web (id: $id) {
+    work (id: $id) {
       title
       content
       summary
     }
 
-    posts: allWebPost {
+    posts: allWorkPost {
       edges {
         node {
           id
@@ -45,32 +47,32 @@ export default {
         {
           key: 'og:title',
           name: 'og:title',
-          content: this.$page.web.title
+          content: this.$page.work.title
         },
         {
           key: 'twitter:title',
           name: 'twitter:title',
-          content: this.$page.web.title
+          content: this.$page.work.title
         },
         {
           key: 'description',
           name: 'description',
-          content: this.$page.web.summary
+          content: this.$page.work.summary
         },
         {
           key: 'og:description',
           name: 'description',
-          content: this.$page.web.summary
+          content: this.$page.work.summary
         },
         {
           key: 'twitter:description',
           name: 'twitter:description',
-          content: this.$page.web.summary
+          content: this.$page.work.summary
         },
         {
           key: 'og:image',
           name: 'og:image',
-          content: 'https://darzouras.com' + this.$page.web.header
+          content: 'https://darzouras.com' + this.$page.work.header
         },
         {
           key: 'twitter:image',

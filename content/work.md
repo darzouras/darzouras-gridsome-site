@@ -1,5 +1,5 @@
 ---
-title: Web
+title: Work 
 summary: Personal and professional projects
 header: /uploads/screen-shot-2020-06-09-at-9.21.05-pm.png
 ---

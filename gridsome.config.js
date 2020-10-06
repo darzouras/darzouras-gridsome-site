@@ -28,8 +28,8 @@ module.exports = {
     Post: '/blog/:title',
     Tag: '/tag/:id',
     Main: '/:permalink',
-    Web: "/web",
-    WebPost: "/web/:title",
+    Work: "/work",
+    WorkPost: "/work/:title",
     Art: "/art",
   },
 
@@ -74,8 +74,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/web.md',
-        typeName: 'Web',
+        path: 'content/work.md',
+        typeName: 'Work',
         remark: {
           plugins: []
         }
@@ -85,8 +85,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/web/*.md',
-        typeName: 'WebPost',
+        path: 'content/work/*.md',
+        typeName: 'WorkPost',
         remark: {
           plugins: []
         }
@@ -171,7 +171,7 @@ module.exports = {
           '/blog/*': {
             changefreq: 'weekly'
           },
-          '/web/*': {
+          '/work/*': {
             changefreq: 'weekly'
           }
         }
