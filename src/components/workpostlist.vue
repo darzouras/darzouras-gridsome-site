@@ -1,8 +1,7 @@
 <template>
     <article>
-        <img :src="post.header" alt="" />
-
         <h2><g-link :to="post.path">{{ post.title }}</g-link></h2>
+        <img :src="post.header" alt="" />
 
         <p v-html="post.summary"></p>
     </article>
@@ -20,6 +19,11 @@ export default {
         margin-bottom: 3rem;
 
         h2 {
+            margin-bottom: .5rem;
+            background: none;
+        }
+
+        img {
             margin-bottom: .5rem;
         }
     }
