@@ -70,9 +70,4 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     rel: 'manifest',
     href: '/manifest.json'
   })
-
-  head.script.push({
-    src: '/assets/js/load-sw.js',
-    body: true
-  })
 }
