@@ -34,6 +34,29 @@ export default {
       font-style: italic;
   }
 
+  @font-face {
+    src: url('../assets/fonts/FantasqueSansMono-Regular.woff2');
+    font-family: "Fantasque Sans Mono";
+    font-style: normal;
+  }
+  @font-face {
+    src: url('../assets/fonts/FantasqueSansMono-Italic.woff2');
+    font-family: "Fantasque Sans Mono";
+    font-style: italic;
+  }
+  @font-face {
+    src: url('../assets/fonts/FantasqueSansMono-Bold.woff2');
+    font-family: "Fantasque Sans Mono";
+    font-style: normal;
+    font-weight: bold;
+  }
+  @font-face {
+    src: url('../assets/fonts/FantasqueSansMono-BoldItalic.woff2');
+    font-family: "Fantasque Sans Mono";
+    font-style: italic;
+    font-weight: bold;
+  }
+
   .body-wrapper {
     width: 100%;
     max-width: 666px;
