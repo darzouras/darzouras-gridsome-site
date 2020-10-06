@@ -42,7 +42,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.web.title,
+      title: this.$page.work.title,
       meta: [
         {
           key: 'og:title',
@@ -77,7 +77,7 @@ export default {
         {
           key: 'twitter:image',
           name: 'twitter:image',
-          content: 'https://darzouras.com' + this.$page.web.header
+          content: 'https://darzouras.com' + this.$page.work.header
         }
       ]
     }

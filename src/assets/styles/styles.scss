@@ -36,6 +36,10 @@ body {
         @include dm {
             color: $light-green;
             text-decoration-color: $midtone-green;
+            &:hover {
+                background: $midtone-green;
+                color: $darkest;
+            }
         }
     }
 
@@ -47,6 +51,7 @@ body {
         word-wrap: break-word;
         margin-bottom: 1.6rem;
         color: $darkest;
+        line-height: .8em;
         @include dm{
             color: $light-green;
         }
@@ -61,14 +66,16 @@ body {
         padding: 5px;
         width: 100%;
         margin-bottom: 1.6rem;
+        line-height: .8em;
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 2.4rem;
         letter-spacing: 0.05em;
         @include font-weight(650);
-        text-transform: uppercase;
         word-wrap: break-word;
+        line-height: .8em;
+        margin-bottom: 1.6rem;
     }
 
     /* text */
@@ -79,7 +86,10 @@ body {
 
     ul {
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 1.6rem;
+        li {
+            margin-bottom: .8rem;
+        }
     }
 
     img {

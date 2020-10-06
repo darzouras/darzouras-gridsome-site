@@ -27,6 +27,7 @@ export default {
         position: relative;
 
         h3 {
+            margin-bottom: .8rem;
             .post-date {
                 display: block;
                 font-size: 2.4rem;
@@ -34,6 +35,7 @@ export default {
             .post-title {
                 font-size: 2.1rem;
                 color: $light;
+                line-height: .8em;
                 a {
                     text-decoration: none;
                     &::after {
@@ -46,7 +48,9 @@ export default {
                     }
 
                     @include dm {
-                        color: $lightest;
+                        &:not(:hover) {
+                            color: $lightest;
+                        }
                     }
                 }
             }

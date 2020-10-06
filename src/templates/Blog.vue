@@ -92,6 +92,7 @@ export default {
 
 <style lang="scss" scoped>
     nav {
+        font-size: 1.8rem;
         text-align: center;
         margin-top: 3rem;
 
