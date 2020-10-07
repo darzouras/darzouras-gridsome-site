@@ -100,5 +100,19 @@ body {
     .content-top {
         margin-bottom: 2.4rem;
     }
+    
+    pre {
+        font-family: $fonts;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        background: $midtone;
+        color: $light-green;
+        padding: 1.6rem;
+        font-size:.85em;
+    }
+    code {
+        font-family: $fonts;
+        letter-spacing: 0.05em;
+    }
 }
 
