@@ -5,6 +5,8 @@ layout: layouts/Default.vue
 summary: What have I been up to?
 header: /uploads/delores1.jpg
 ---
+
+
 What have I been up to? And [what is a now page](https://nownownow.com/about)?
 
 ## Personally
@@ -19,4 +21,9 @@ Building TONS of websites for [160over90](https://160over90.com). Practicing CSS
 
 Preparing to eventually take the [Web Accessibility Standards certification exam](https://www.accessibilityassociation.org/wascertification).
 
-To check out some of the projects I've worked on recently you can [check out the work page](/work).
+### Recent launches
+
+* [IEQCapital.com](https://ieqcapital.com) - Worked closely with art director on the first public-facing website for this financial firm.
+* [MiamiOh.edu](https://miamioh.edu/) - Reviewed accessibility concerns, diagnosed issues and prescribed solutions.
+
+To check out some specific case studies [check out the work page](/work).
