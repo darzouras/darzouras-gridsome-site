@@ -8,6 +8,6 @@ header: /uploads/sailormoonattitude1.PNG
 ---
 Hi! I'm Darlene, a front end developer and artist. My dream is to become a Pokèmon master.
 
-My experience in web development started on Geocities and Neopets. Now I build websites and web apps for companies like Goose Island, Sephora, and T-Mobile.
+My experience in web development started on Geocities and Neopets. Since then I have built websites and web apps for companies like Goose Island, Sephora, and T-Mobile.
 
 This website and its blog are powered by [Gridsome](https://gridsome.org) and [NetlifyCMS](https://www.netlifycms.org).
