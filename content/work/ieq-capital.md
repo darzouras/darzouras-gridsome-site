@@ -5,11 +5,15 @@ summary: The IEQ Capital project brought a new public-facing website to this
   financial firm.
 header: /uploads/screen-shot-2020-10-06-at-3.55.49-pm.png
 ---
+## The ask:
+
 As a financial firm the goal for this website was to feel deluxe. I worked closely with our art director, Rich Norton, to produce this site. One way we aimed to achieve this is by adding some subtle animations.
 
 ![Two boxes animate over each other, a dark blue square fills in where they overlap.](/uploads/ieq-animation.gif)
 
 Between subtle fade-ins as you reach content on the page, a tag hover states, and a nav bar that scales back as you scroll, this site has more animation than any other site I've built before. I'm excited to report that all animations are made completely in CSS (with some help from jQuery on checking scroll position). Even the image above is animated completely in CSS.
+
+## The tech:
 
 I remember struggling as a junior dev with the idea of animations, spending a lot of time looking into different plugin options or packages. I avoid situations like that as much as possible to keep the websites I ship free of bloated extras. Most of the animations actually are as simple as this: 
 
