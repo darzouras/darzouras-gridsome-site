@@ -21,7 +21,8 @@ Preparing to eventually take the [Web Accessibility Standards certification exam
 
 ### Recent launches
 
-* [EngineeringAtAlberta.ca](https://engineeringatalberta.ca/) landing page build - Lead developer, built-in Vue, features GSAP animations. November 2020.
+* [PerformanceAcademy.UnderArmour.com](https://performanceacademy.underarmour.com/en/) site build - WordPress website with Twig + Vue front end, ACF Pro to build out site content, and multi-lingual support through WPML. January 2021.
+* [EngineeringAtAlberta.ca](https://engineeringatalberta.ca/) landing page build - Lead developer, Vue front end, features GSAP animations. November 2020.
 * [IEQCapital.com](https://ieqcapital.com) site build - Worked closely with our art director on the first public-facing website for this financial firm. October 2020.
 * [MiamiOh.edu](https://miamioh.edu/) front end build - Reviewed accessibility concerns, diagnosed issues, and prescribed solutions. September 2020.
 * [XM2Pursuit.com](https://www.xm2pursuit.com/) site build - A redesign and rebuild of PursuitAviation.com (a site I built in 2018) to reflect a new partnership and branding. October 2020.
