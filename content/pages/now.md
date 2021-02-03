@@ -17,8 +17,6 @@ Personal and professional life bleeding into each other a little bit as I have b
 
 Building TONS of websites for [160over90](https://160over90.com). Practicing CSS magic and passing my practice to willing colleagues. Helping assess web projects built across the 160over90 digital teams on web accessibility. Also doing a little bit of web design. Working from home for the foreseeable future.
 
-Preparing to eventually take the [Web Accessibility Standards certification exam](https://www.accessibilityassociation.org/wascertification).
-
 ### Recent launches
 
 * [PerformanceAcademy.UnderArmour.com](https://performanceacademy.underarmour.com/en/) site build - WordPress website with Twig + Vue front end, ACF Pro to build out site content, and multi-lingual support through WPML. January 2021.
@@ -27,5 +25,3 @@ Preparing to eventually take the [Web Accessibility Standards certification exam
 * [MiamiOh.edu](https://miamioh.edu/) front end build - Reviewed accessibility concerns, diagnosed issues, and prescribed solutions. September 2020.
 * [XM2Pursuit.com](https://www.xm2pursuit.com/) site build - A redesign and rebuild of PursuitAviation.com (a site I built in 2018) to reflect a new partnership and branding. October 2020.
 * [Flexpower.com shop portal](https://shop.flexpower.com) - The team's introduction to Shopify development, made adjustments to a starter theme to match brand and design requirements. November 2020.
-
-To check out some specific case studies [check out the work page](/work).

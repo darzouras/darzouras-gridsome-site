@@ -28,9 +28,9 @@ module.exports = {
     Post: '/blog/:title',
     Tag: '/tag/:id',
     Main: '/:permalink',
-    Work: "/work",
+    /*Work: "/work",
     WorkPost: "/work/:title",
-    Art: "/art",
+    Art: "/art", */
   },
 
   transformers: {
@@ -71,6 +71,7 @@ module.exports = {
       }
     },
 
+    /* 
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -92,6 +93,7 @@ module.exports = {
         }
       }
     },
+    */
 
     {
       use: '@gridsome/source-filesystem',

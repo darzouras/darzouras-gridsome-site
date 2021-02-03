@@ -4,7 +4,7 @@
 
         <div class="page-body" v-html="$page.contact.content"></div>
 
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true">
             <input type="hidden" name="form-name" value="contact" />
             
             <label>
@@ -21,6 +21,8 @@
                 Message
                 <textarea name="message" required></textarea>
             </label>
+
+            <div data-netlify-recaptcha="true"></div>
 
             <input type="submit" value="Send">
         </form>
@@ -99,13 +101,13 @@ export default {
             display: block;
             width: 100%;
             margin-top: 1rem;
-            font-size: .8rem;
+            font-size: 1.8rem;
             letter-spacing: .1rem;
             @include font-weight(600);
 
             input, textarea {
                 font-family: $fonts;
-                font-size: 1rem;
+                font-size: 1.5rem;
                 display: block;
                 width: 100%;
                 padding: .3rem;
@@ -113,6 +115,7 @@ export default {
 
                 &:focus {
                     background: $light;
+                    color: $lightest;
                 }
             }
 

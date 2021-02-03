@@ -3,6 +3,10 @@ title: CGGI Portal
 date: 2020-06-18T16:02:57.834Z
 summary: Pushing MODX to its limits to bring a user portal to CGGI
 header: /uploads/screen-shot-2020-06-18-at-11.04.11-am.png
+tags:
+  - case study
+  - 160over90
+  - work
 ---
 ## The ask:
 

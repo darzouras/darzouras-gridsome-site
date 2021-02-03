@@ -39,7 +39,7 @@ export default {
             left: 0;
             right: unset;
             bottom: unset;
-            width: 325px;
+            width: 50rem;
         }
 
         ul {

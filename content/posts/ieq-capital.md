@@ -4,6 +4,10 @@ date: 2020-10-06T20:56:59.810Z
 summary: The IEQ Capital project brought a new public-facing website to this
   financial firm.
 header: /uploads/screen-shot-2020-10-06-at-3.55.49-pm.png
+tags:
+  - work
+  - 160over90
+  - case study
 ---
 ## The ask:
 
