@@ -3,7 +3,12 @@
     <Navigation />
 
     <main>
-      <slot />
+      <div class="header_wrapper">
+        <slot name="header" />
+      </div>
+      <div class="content">
+        <slot />
+      </div>
     </main>
   </div>
 </template>
@@ -43,13 +48,19 @@ export default {
   }
 
   main {
-    width: 90%;
-    max-width: 666px;
-    padding: 1em 0 2em;
     margin: 25px 5% 75px;
 
     @include md {
       margin: 75px 5% 50px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+
+    .content {
+      width: 90%;
+      max-width: 666px;
+      padding: 1em 0 2em;
     }
   }
 </style>

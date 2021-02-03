@@ -7,7 +7,7 @@ summary: I started the rebuild of this personal website while at An Event Apart
 tags:
   - conference
   - goals
-header: /uploads/sailormoonattitude1.PNG
+header: 
 ---
 I'm at the [An Event Apart](https://aneventapart.com) conference in Chicago, having a great time and learning a lot. I started this personal site rebuild after being inspired by some of the talks the past two days. It's my goal to learn more about these and put them to use on this site:
 
