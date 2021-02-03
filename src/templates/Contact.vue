@@ -22,7 +22,7 @@
                 <textarea name="message" required></textarea>
             </label>
 
-            <div data-netlify-recaptcha="true"></div>
+            <div class="recaptcha" data-netlify-recaptcha="true"></div>
 
             <input type="submit" value="Send">
         </form>
@@ -123,17 +123,26 @@ export default {
                 background: transparent;
                 border-width: 0 0 3px 0;
                 border-color: $midtone;
+
+                @include dm {
+                    border-color: $lightest;
+                    background: $light-green;
+                }
             }
             textarea {
                 background: transparent;
                 border: 3px solid $midtone;
                 border-radius: 10px;
+
+                @include dm {
+                    background: $light-green;
+                }
             }
         }
 
         input[type="submit"] {
             font-family: $fonts;
-            background: $light;
+            background: $midtone-green;
             color: $darkest;
             border: none;
             border-radius: 10px;
@@ -141,7 +150,7 @@ export default {
             padding: .7rem 0;
             text-transform: uppercase;
             margin-top: 1rem;
-            font-size: 1rem;
+            font-size: 1.8rem;
             @include font-weight(600);
             letter-spacing: .1rem;
 
@@ -149,6 +158,10 @@ export default {
                 background: $midtone;
                 color: $lightest;
             }
+        }
+
+        .recaptcha {
+            padding: 1rem;
         }
     }
 </style>
