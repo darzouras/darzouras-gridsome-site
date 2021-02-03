@@ -161,7 +161,7 @@ export default {
         }
 
         .recaptcha {
-            padding: 1rem;
+            padding: 1rem 0;
         }
     }
 </style>
