@@ -58,7 +58,6 @@ export default {
     }
 
     .content {
-      width: 90%;
       max-width: 666px;
       padding: 1em 0 2em;
     }
