@@ -6,6 +6,7 @@ summary: Planning for a multi-language website has been a unique challenge for
 tags:
   - 160over90
   - work
+header: /uploads/ua1.jpg
 ---
 I've built a ton of websites over the past four years but this is the first time I've had to manage multiple languages. I knew that it would come with some challenges and it didn't let me down. Here are some things I learned along the way:
 
