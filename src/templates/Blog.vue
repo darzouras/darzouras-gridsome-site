@@ -3,8 +3,10 @@
         <h1>Blog</h1>
         
         <div v-html="$page.blog.content" class="content-top"></div>
-
-        <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+        
+        <transition-group name="fade">
+            <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+        </transition-group>
 
         <Pager :info="$page.posts.pageInfo"/>
     </Layout>

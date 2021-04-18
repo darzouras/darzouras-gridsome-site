@@ -1,27 +1,14 @@
 <template>
-  <div>
-    <Navigation />
-
-    <main>
-      <div class="header_wrapper">
-        <slot name="header" />
-      </div>
-      <div class="content">
-        <slot />
-      </div>
-    </main>
-  </div>
+  <main>
+    <div class="header_wrapper">
+      <slot name="header" />
+    </div>
+    
+    <div class="content">
+      <slot />
+    </div>
+  </main>
 </template>
-
-<script>
-import Navigation from '~/components/navigation.vue'
-
-export default {
-  components: {
-    Navigation
-  }
-}
-</script>
 
 <style lang="scss" scoped>
   @font-face {
@@ -61,5 +48,15 @@ export default {
       max-width: 666px;
       padding: 1em 0 2em;
     }
+  }
+
+  .fade-enter-active {
+      transition-duration: 0.3s;
+      transition-property: opacity;
+      transition-timing-function: ease;
+  }
+  .fade-enter,
+  .fade-leave-active {
+      opacity: 0;
   }
 </style>
