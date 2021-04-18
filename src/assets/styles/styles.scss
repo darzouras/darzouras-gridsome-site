@@ -28,7 +28,8 @@ body {
         text-decoration-color: $midtone;
         text-decoration-thickness: 3px;
 
-        &:hover {
+        &:hover,
+        &:focus {
             background: $midtone;
             color: $lightest;
         }
@@ -36,7 +37,8 @@ body {
         @include dm {
             color: $light-green;
             text-decoration-color: $midtone-green;
-            &:hover {
+            &:hover,
+            &:focus {
                 background: $midtone-green;
                 color: $darkest;
             }

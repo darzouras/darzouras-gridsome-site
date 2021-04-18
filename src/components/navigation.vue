@@ -87,6 +87,11 @@ export default {
                     @include dm{
                         color: $midtone;
                     }
+
+                    &:focus {
+                        outline: 2px dashed $lightest;
+                        outline-offset: 2px;
+                    }
                 }
             }
         }
