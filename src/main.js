@@ -52,6 +52,12 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     content: '#856d9d'
   })
 
+  head.meta.push({
+    key: 'twitter:card',
+    name: 'twitter:card',
+    content: 'summary'
+  })
+
   router.beforeEach((to, _from, next) => {
     head.meta.push({
       key: 'og:url',
