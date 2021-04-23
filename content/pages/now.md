@@ -17,7 +17,7 @@ Building TONS of websites for [160over90](https://160over90.com)- at least a doz
 
 ### Recent launches
 
-* [PerformanceAcademy.UnderArmour.com](https://performanceacademy.underarmour.com/en/) site build - WordPress website with Twig + Vue front end, ACF Pro to build out site content, and multi-lingual support through WPML. January 2021.
+* [PerformanceAcademy.UnderArmour.com](https://performanceacademy.underarmour.com/en/) site build - WordPress website with Twig + Vue front end, ACF Pro to build out site content, and multi-lingual support through WPML. January 2021. (Included in [Women's Health 2021 Fit Tech Award Winners](https://www.womenshealthmag.com/fitness/a35809066/womens-health-2021-fit-tech-awards/)!)
 * [EngineeringAtAlberta.ca](https://engineeringatalberta.ca/) landing page build - Lead developer, Vue front end, features GSAP animations. November 2020.
 * [IEQCapital.com](https://ieqcapital.com) site build - Worked closely with our art director on the first public-facing website for this financial firm. October 2020.
 * [MiamiOh.edu](https://miamioh.edu/) front end build - Reviewed accessibility concerns, diagnosed issues, and prescribed solutions. September 2020.
