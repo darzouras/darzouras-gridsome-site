@@ -13,7 +13,7 @@ Lately I'm playing guitar (poorly), catching up on anime, and playing games. I t
 
 ## Professionally
 
-Building TONS of websites for [160over90](https://160over90.com). Practicing CSS magic and passing my practice to willing colleagues. Helping assess web projects built across the 160over90 digital teams on web accessibility. Also doing a little bit of web design. Working from home for the foreseeable future.
+Building TONS of websites for [160over90](https://160over90.com)- at least a dozen since I started there in May 2017. I also help assess web projects built across the 160over90 digital teams for accessibility. Doing a little bit of web design when the creative team is strained. Working from home for the foreseeable future.
 
 ### Recent launches
 
@@ -26,9 +26,10 @@ Building TONS of websites for [160over90](https://160over90.com). Practicing CSS
 
 ## My Favorite Things
 
-These are some of the tools I'm using recently that I'd be absolutely lost without:
+These are some things that have brought joy recently:
 
 * I have a big collection of mechanical keyboards but my daily driver at home has been my [Ergodox EZ](https://ergodox-ez.com/). I'm counting down until I get to outfit it with a set of dark [Magical Girl keycaps](https://thekey.company/products/dsa-magic-girl-keycaps-round-2).
 * I love [Notion](https://www.notion.so/) for taking notes and managing personal projects. My notes are all private by default but can easily be made public and shared to collaborators via a link.
 * The [Dracula](https://draculatheme.com/) color theme. If I can swap a color theme of a tool or application for this one, I've done it. Considering paying for the Pro theme.
 * The new [Binding Of Isaac: Repentance DLC](https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/). I've sunk an embarrassing amount of time into this game and a lot of free time lately is spent trying to overcome the new content. Loved this game through every iteration, 10/10.
+* The[ Apple Fitness+ app](https://www.apple.com/apple-fitness-plus/). I'm trying to become more active but doing unstructured workouts on my own is not effective for me and can become boring pretty quickly. I'm still on my free trial but will happily pay the subscription for this service because I can pick a workout that suits me that day and there is always new content to choose from. Since I'm enrolled in the iOS beta I've been able to AirPlay to my TV-- a huge bonus.
