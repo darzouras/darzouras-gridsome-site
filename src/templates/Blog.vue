@@ -3,12 +3,16 @@
         <h1>Blog</h1>
         
         <div v-html="$page.blog.content" class="content-top"></div>
+
+        <Tags v-bind:tags="$page.allTag.edges" v-bind:bottomMargin="true"/>
         
         <transition-group name="fade">
             <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" :level="'h2'" />
         </transition-group>
 
-        <Pager :info="$page.posts.pageInfo"/>
+        <div class="pagination">
+            <Pager :info="$page.posts.pageInfo"/>
+        </div>
     </Layout>
 </template>
 
@@ -35,16 +39,26 @@
             content
             summary
         }
+
+        allTag {
+            edges {
+                node {
+                    title
+                }
+            }
+        }
     }
 </page-query>
 
 <script>
 import PostList from '~/components/postlist.vue'
+import Tags from '~/components/tags.vue'
 import { Pager } from 'gridsome'
 
 export default {
     components: {
         PostList,
+        Tags,
         Pager
     },
     metaInfo() {
@@ -93,7 +107,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    nav {
+    .pagination > nav {
         font-size: 1.8rem;
         text-align: center;
         margin-top: 3rem;
