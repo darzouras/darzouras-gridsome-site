@@ -47,6 +47,7 @@
     .content {
       max-width: 666px;
       padding: 1em 0 2em;
+      flex-grow: 1;
     }
   }
 
@@ -59,4 +60,19 @@
   .fade-leave-active {
       opacity: 0;
   }
+
+  .header {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 888px;
+        border: .5rem solid $midtone-green;
+        border-top: 2.5rem solid $midtone-green;
+
+        @include md {
+            margin-bottom: 0;
+            margin-left: 2.5rem;
+            position: sticky;
+            top: 75px;
+        }
+    }
 </style>

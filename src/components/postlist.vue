@@ -1,9 +1,9 @@
 <template>
     <article>
-        <h3>
+        <component :is="level" class="subtitle">
             <span class="post-date"><Timestamp v-bind:time="post.date" /></span>
             <span class="post-title"><g-link :to="post.path">{{ post.title }}</g-link></span>
-        </h3>
+        </component>
 
         <p v-html="post.summary"></p>
     </article>
@@ -17,16 +17,21 @@ export default {
         Timestamp
     }, 
     name: 'PostList',
-    props: ['post']
+    props: {
+        'post': {}, 
+        'level': {
+            default: 'h3'
+        }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
     article {
-        margin-bottom: 2.4rem;
+        margin-bottom: 3.4rem;
         position: relative;
 
-        h3 {
+        .subtitle {
             margin-bottom: .8rem;
             .post-date {
                 display: block;

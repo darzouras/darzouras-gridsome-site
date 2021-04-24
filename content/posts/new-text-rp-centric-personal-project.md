@@ -3,7 +3,7 @@ title: New Text RP-centric personal project
 date: 2020-06-23T02:09:28.920Z
 summary: Unhappy with other rp options, I'm taking things into my own hands
 tags:
-  - tag
+  - personal projects
 header: /uploads/screen-shot-2020-06-22-at-9.08.52-pm.png
 ---
 So back in high school I used to do a ton of online text rp. I made a lot of friends that I'm still in contact with today and once in a while I feel like I'd like to pick it back up. The thing is, there's no service out there (as far as I know) that's made for rp. Typically you create extra accounts on social media and blogging services like Twitter, Tumblr, Livejournal or Dreamwidth, and then have multiple accounts to juggle, and each one offers a slightly different experience in terms of how rp tends to go.

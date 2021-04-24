@@ -6,6 +6,8 @@
 
         <div class="post-body" v-html="$page.post.content"></div>
 
+        <Tags v-if="$page.post.tags" v-bind:tags="$page.post.tags" v-bind:headline="'Tags'" />
+
         <div class="post-back">
             <g-link to="/blog">Back to Blog</g-link>
         </div>
@@ -24,6 +26,9 @@
             summary
             content
             header
+            tags {
+                title
+            }
         }
     }
 </page-query>
@@ -33,28 +38,19 @@
         margin-top: 3rem;
     }
 
-    .header {
-        margin-bottom: 1.5rem;
-        width: 100%;
-        max-width: 888px;
-        border: .5rem solid $midtone-green;
-        border-top: 2.5rem solid $midtone-green;
-
-        @include md {
-            margin-bottom: 0;
-            margin-left: 2.5rem;
-            position: sticky;
-            top: 75px;
-        }
+    .post-body {
+        margin-top: 3rem;
     }
 </style>
 
 <script>
 import Timestamp from '~/components/timestamp.vue'
+import Tags from '~/components/tags.vue'
 
 export default {
     components: {
-        Timestamp
+        Timestamp,
+        Tags
     },
     metaInfo () {
         return {

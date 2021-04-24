@@ -46,7 +46,8 @@ body {
     }
 
     /* titles */
-    h1 {
+    h1,
+    .title {
         font-size: 3.6rem;
         letter-spacing: 0em;
         @include font-weight(bold);
@@ -59,7 +60,8 @@ body {
         }
     }
 
-    h2 {
+    h2,
+    .section-title {
         font-size: 2.4rem;
         letter-spacing: 0.1em;
         @include font-weight(bold);
@@ -71,13 +73,17 @@ body {
         line-height: .8em;
     }
 
-    h3 {
+    h3,
+    .subtitle {
         font-size: 2.4rem;
         letter-spacing: 0.05em;
         @include font-weight(650);
         word-wrap: break-word;
         line-height: .8em;
         margin-bottom: 1.6rem;
+        background: transparent;
+        padding: 0;
+        color: unset;
     }
 
     /* text */

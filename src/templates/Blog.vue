@@ -5,7 +5,7 @@
         <div v-html="$page.blog.content" class="content-top"></div>
         
         <transition-group name="fade">
-            <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+            <PostList v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" :level="'h2'" />
         </transition-group>
 
         <Pager :info="$page.posts.pageInfo"/>

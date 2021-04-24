@@ -3,6 +3,10 @@
         <h1>{{ $page.main.title }}</h1>
 
         <div class="page-body" v-html="$page.main.content"></div>
+
+        <template v-slot:header>
+            <g-image v-if="$page.main.header" :src="$page.main.header" alt="" class="header"/>
+        </template>
     </Layout>
 </template>
 
@@ -12,6 +16,7 @@
             title
             content
             summary
+            header
         }
     }
 </page-query>
