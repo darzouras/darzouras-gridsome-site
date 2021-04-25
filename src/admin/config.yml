@@ -84,7 +84,7 @@ collections:
         name: "tags"
         widget: "list"
         default: ["work"]
-        required: false
+        required: true
       - label: "Image"
         name: "header"
         widget: "image"
