@@ -24,6 +24,8 @@ Building TONS of websites for [160over90](https://160over90.com)- at least a doz
 * [XM2Pursuit.com](https://www.xm2pursuit.com/) site build - A redesign and rebuild of PursuitAviation.com (a site I built in 2018) to reflect a new partnership and branding. October 2020.
 * [Flexpower.com shop portal](https://shop.flexpower.com) - The team's introduction to Shopify development, made adjustments to a starter theme to match brand and design requirements. November 2020.
 
+I recently updated my blog to be able to sort posts by tag! To see some older work and case studies check out the [work tag](/tag/work).
+
 ## My Favorite Things
 
 These are some things that have brought joy recently:
@@ -32,4 +34,4 @@ These are some things that have brought joy recently:
 * I love [Notion](https://www.notion.so/) for taking notes and managing personal projects. My notes are all private by default but can easily be made public and shared to collaborators via a link.
 * The [Dracula](https://draculatheme.com/) color theme. If I can swap a color theme of a tool or application for this one, I've done it. Considering paying for the Pro theme.
 * The new [Binding Of Isaac: Repentance DLC](https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/). I've sunk an embarrassing amount of time into this game and a lot of free time lately is spent trying to overcome the new content. Loved this game through every iteration, 10/10.
-* The[ Apple Fitness+ app](https://www.apple.com/apple-fitness-plus/). I'm trying to become more active but doing unstructured workouts on my own is not effective for me and can become boring pretty quickly. I'm still on my free trial but will happily pay the subscription for this service because I can pick a workout that suits me that day and there is always new content to choose from. Since I'm enrolled in the iOS beta I've been able to AirPlay to my TV-- a huge bonus.
+* The [Apple Fitness+ app](https://www.apple.com/apple-fitness-plus/). I'm trying to become more active but doing unstructured workouts on my own is not effective for me and can become boring pretty quickly. I can pick a workout that suits me no based on how I feel and what equipment I have available and there is always new content to choose from. Since I'm enrolled in the iOS beta I've been able to AirPlay to my TV-- a huge bonus.
