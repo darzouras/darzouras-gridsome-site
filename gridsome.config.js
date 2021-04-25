@@ -61,43 +61,6 @@ module.exports = {
       }
     },
 
-    /* 
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/art.md',
-        typeName: 'Art',
-        remark: {
-          plugins: []
-        }
-      }
-    },
-    */
-
-    /* 
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/work.md',
-        typeName: 'Work',
-        remark: {
-          plugins: []
-        }
-      }
-    },
-
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/work/*.md',
-        typeName: 'WorkPost',
-        remark: {
-          plugins: []
-        }
-      }
-    },
-    */
-
     {
       use: '@gridsome/source-filesystem',
       options: {
