@@ -17,12 +17,12 @@ Building TONS of websites for [160over90](https://160over90.com)- over a dozen s
 
 ### Recent launches
 
+* [160over90.com](https://160over90.com/) site rebuild - Complete site redesign and rebuild. June 2021.
+* [Obsidian](https://obsidianworks.com/) landing page build - First site for new brand. Directed the home page scroll animation (Greensock). June 2021.
 * [PerformanceAcademy.UnderArmour.com](https://performanceacademy.underarmour.com/en/) site build - WordPress website with Twig + Vue front end, ACF Pro to build out site content, and multi-lingual support through WPML. January 2021. (Included in [Women's Health 2021 Fit Tech Award Winners](https://www.womenshealthmag.com/fitness/a35809066/womens-health-2021-fit-tech-awards/)!)
 * [EngineeringAtAlberta.ca](https://engineeringatalberta.ca/) landing page build - Lead developer, Vue front end, features GSAP animations. November 2020.
-* [IEQCapital.com](https://ieqcapital.com) site build - Worked closely with our art director on the first public-facing website for this financial firm. October 2020.
-* [MiamiOh.edu](https://miamioh.edu/) front end build - Reviewed accessibility concerns, diagnosed issues, and prescribed solutions. September 2020.
+* [IEQCapital.com](https://ieqcapital.com) site build - Worked closely with our art director on the first public-facing website for this financial firm. October 2020
 * [XM2Pursuit.com](https://www.xm2pursuit.com/) site build - A redesign and rebuild of PursuitAviation.com (a site I built in 2018) to reflect a new partnership and branding. October 2020.
-* [Flexpower.com shop portal](https://shop.flexpower.com) - The team's introduction to Shopify development, made adjustments to a starter theme to match brand and design requirements. November 2020.
 
 I recently updated my blog to be able to sort posts by tag! To see some older work and case studies check out the [work tag](/tag/work).
 
