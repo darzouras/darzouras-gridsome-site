@@ -2,8 +2,7 @@
 title: Home
 permalink: null
 layout: pages/Index.vue
-summary: Darlene Zouras is front end developer and artist. Currently working as
-  UX Developer for 160/90.
+summary: Darlene Zouras is front end developer and artist.
 header: /uploads/sailormoonattitude1.PNG
 ---
 Hi! I'm Darlene, a front end developer and artist. My dream is to become a Pokèmon master.
