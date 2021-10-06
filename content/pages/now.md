@@ -24,6 +24,7 @@ As part of the 160over90 digital team I launched over a dozen marketing and even
 * [ZandoProjects.com](https://zandoprojects.com) - My last project with 160over90, full site build to replace an initial landing page for new publishing brand. August 2021.
 * [160over90.com](https://160over90.com/) site rebuild - Complete site redesign and rebuild. June 2021.
 * [Obsidian](https://obsidianworks.com/) landing page build - First site for new brand. Directed the home page scroll animation (Greensock). June 2021.
+* [Yale for Humanity campaign site](https://forhumanity.yale.edu/) - Front end build for new Yale campaign. Most complicated animations so far in my career (made with GSAP), see home page, [About the Campaign page](https://forhumanity.yale.edu/about-campaign), and [Why Yale? page](https://forhumanity.yale.edu/why-yale). May 2021.
 * [PerformanceAcademy.UnderArmour.com](https://performanceacademy.underarmour.com/en/) site build - WordPress website with Twig + Vue front end, ACF Pro to build out site content, and multi-lingual support through WPML. January 2021. (Included in [Women's Health 2021 Fit Tech Award Winners](https://www.womenshealthmag.com/fitness/a35809066/womens-health-2021-fit-tech-awards/)!)
 * [EngineeringAtAlberta.ca](https://engineeringatalberta.ca/) landing page build - Lead developer, Vue front end, features GSAP animations. November 2020.
 * [IEQCapital.com](https://ieqcapital.com) site build - Worked closely with our art director on the first public-facing website for this financial firm. October 2020
