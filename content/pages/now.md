@@ -19,6 +19,9 @@ I'm part of a brand new team with Nacelle and I'll be doing front end work using
 
 ### Previous 160over90 launches
 
+As part of the 160over90 digital team I launched over a dozen marketing and event websites, but these are the projects launched in my last year there. While with this team I was able to experience many different technologies to be flexible for client needs.
+
+* [ZandoProjects.com](https://zandoprojects.com) - My last project with 160over90, full site build to replace an initial landing page for new publishing brand. August 2021.
 * [160over90.com](https://160over90.com/) site rebuild - Complete site redesign and rebuild. June 2021.
 * [Obsidian](https://obsidianworks.com/) landing page build - First site for new brand. Directed the home page scroll animation (Greensock). June 2021.
 * [PerformanceAcademy.UnderArmour.com](https://performanceacademy.underarmour.com/en/) site build - WordPress website with Twig + Vue front end, ACF Pro to build out site content, and multi-lingual support through WPML. January 2021. (Included in [Women's Health 2021 Fit Tech Award Winners](https://www.womenshealthmag.com/fitness/a35809066/womens-health-2021-fit-tech-awards/)!)
